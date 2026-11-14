@@ -1,0 +1,1249 @@
+{
+ "model": "qwen2.5:7b",
+ "items": {
+  "0": {
+   "status": "ok",
+   "claims": [
+    "the global number of adults with hypertension increased from 650 million in 1990 to 1.4 billion in 2024",
+    "the global number of adults with hypertension increased by 750 million between 1990 and 2024",
+    "approximately 320 million adults with hypertension (23%) have it under control"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1302
+  },
+  "1": {
+   "status": "ok",
+   "claims": [
+    "reduce the global prevalence of raised blood pressure by 25% between 2010 and 2025",
+    "reduce the prevalence of uncontrolled hypertension by 25% between 2010 and 2025",
+    "Global action plan for the prevention and control of NCDs 2013-2020",
+    "Hypertension",
+    "Target 6"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1289
+  },
+  "2": {
+   "status": "ok",
+   "claims": [
+    "the ETag response-header field provides the current value of the entity tag for the requested variant",
+    "the ETag header is used alongside or instead of Last-Modified",
+    "an origin server MUST NOT send a Last-Modified date which is later than the server's time of message origination",
+    "ETag provides a unique identifier for each version of a resource",
+    "clients can compare and verify the integrity of the received data using ETag",
+    "ETag is particularly important in scenarios where multiple versions of a resource exist",
+    "ETag is used alongside or instead of Last-Modified to provide a more robust and precise way to identify and manage different versions of a resource"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1380
+  },
+  "3": {
+   "status": "ok",
+   "claims": [
+    "Healthy-lifestyle counselling",
+    "Evidence-based treatment protocols",
+    "Access to essential medicines and technology",
+    "Risk-based management",
+    "Team-based care",
+    "Systems for monitoring"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1330
+  },
+  "4": {
+   "status": "ok",
+   "claims": [
+    "a response is cacheable if a cache is allowed to store a copy of the response message for use in answering subsequent requests",
+    "the rules for determining the cacheability of HTTP responses are defined in section 13"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1370
+  },
+  "5": {
+   "status": "no_claims",
+   "claims": [],
+   "verdicts": [],
+   "found_fraction": null,
+   "faithfulness": null,
+   "max_prompt_tokens": 227
+  },
+  "6": {
+   "status": "ok",
+   "claims": [
+    "eat a healthy, low-salt diet",
+    "lose weight if overweight or obese",
+    "be more physically active",
+    "get at least 150 minutes per week of moderate-intensity aerobic activity or 75 minutes per week of vigorous aerobic activity",
+    "reduce and manage stress",
+    "regularly check blood pressure"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1319
+  },
+  "7": {
+   "status": "ok",
+   "claims": [
+    "a response is fresh if its age has not yet exceeded its freshness lifetime",
+    "the age of a response is the time since it was sent by, or successfully validated with, the origin server",
+    "freshness lifetime is the length of time between the generation of a response and its expiration time",
+    "a cached HTTP response is considered 'fresh' if the time elapsed since it was sent by the origin server (its age) has not yet exceeded the time until it expires (its freshness lifetime)",
+    "if the age exceeds the freshness lifetime, the response is considered 'stale'"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1446
+  },
+  "8": {
+   "status": "ok",
+   "claims": [
+    "eating a healthy, low-salt diet",
+    "losing weight if overweight or obese",
+    "being physically active",
+    "getting at least 150 minutes per week of moderate-intensity aerobic activity or 75 minutes per week of vigorous aerobic activity",
+    "plus strength building exercises 2 or more days each week",
+    "eating more vegetables and fruits",
+    "sitting less",
+    "quitting tobacco",
+    "taking medicines as prescribed",
+    "keeping appointments with your health care professional"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1309
+  },
+  "9": {
+   "status": "ok",
+   "claims": [
+    "a mutual NDA requires both parties to protect confidential information disclosed under the terms of the confidentiality agreement",
+    "a unilateral NDA only protects the confidential information of one party"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1116
+  },
+  "10": {
+   "status": "ok",
+   "claims": [
+    "According to Section 4 of the Mutual Non-Disclosure Agreement (MNDA), if a disclosure is required by law, regulation or regulatory authority, subpoena or court order, the Receiving Party may disclose Confidential Information.",
+    "The Receiving Party must provide the Disclosing Party with reasonable advance notice of the required disclosure and reasonably cooperate, at the Disclosing Party's expense, with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information.",
+    "This provision interacts with the general confidentiality obligations in Section 2 by allowing the Receiving Party to disclose Confidential Information when required by law, while still providing the Disclosing Party with an opportunity to take steps to protect the confidentiality of that information.",
+    "The notice requirement ensures that the Disclosing Party is aware of the planned disclosure and can work together with the Receiving Party to minimize any potential harm from the disclosure.",
+    "Section 4 provides a mechanism for the Receiving Party to disclose Confidential Information when required by law, while still honoring its general confidentiality obligations in Section 2.",
+    "Rheumatic fever is caused by an abnormal response of the body to infection with streptococcal bacteria.",
+    "This usually begins as a sore throat or tonsillitis in children."
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.5714285714285714,
+   "faithfulness": 3.0,
+   "max_prompt_tokens": 1328
+  },
+  "11": {
+   "status": "ok",
+   "claims": [
+    "Section 11 of the text passage",
+    "provision of this MNDA is held unenforceable",
+    "it will be limited to the minimum extent necessary",
+    "the rest of this MNDA remains in effect",
+    "Disclosing Party may seek equitable relief as a remedy for breach of the MNDA",
+    "Section 6 states that the Receiving Party's obligations relating to Confidential Information will survive for the Term of Confidentiality",
+    "despite any expiration or termination of this MNDA",
+    "confidentiality obligations remain in effect",
+    "Disclosing Party can still seek remedies for breach of those obligations"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1390
+  },
+  "12": {
+   "status": "ok",
+   "claims": [
+    "GET and HEAD methods SHOULD NOT have the significance of taking an action other than retrieval",
+    "GET and HEAD methods ought to be considered 'safe'",
+    "OPTIONS method represents a request for information about the communication options available on the request/response chain identified by the Request-URI",
+    "OPTIONS method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating a resource retrieval",
+    "HEAD is used for retrieving metadata about a resource",
+    "OPTIONS is used for discovering the available communication options on the request/response chain"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 0.8333333333333334,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1425
+  },
+  "13": {
+   "status": "ok",
+   "claims": [
+    "HTTP status code 404 means that the server has not found anything matching the Request-URI",
+    "No indication is given of whether the condition is temporary or permanent"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1292
+  },
+  "14": {
+   "status": "ok",
+   "claims": [
+    "reduce the prevalence of uncontrolled hypertension by 25% between 2010 and 2025",
+    "Target 6: Reduce global prevalence of raised blood pressure by 25% between 2010 and 2025"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1411
+  },
+  "15": {
+   "status": "ok",
+   "claims": [
+    "unhealthy diets (excessive salt consumption, a diet high in saturated fat and trans fats, low intake of fruits and vegetables)",
+    "physical inactivity",
+    "consumption of tobacco and alcohol",
+    "being overweight or obese"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1266
+  },
+  "16": {
+   "status": "ok",
+   "claims": [
+    "the recommended blood pressure goal for people with diabetes is less than 130/80"
+   ],
+   "verdicts": [
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1369
+  },
+  "17": {
+   "status": "ok",
+   "claims": [
+    "The HTTP status code 404 means that the server has not found anything matching the Request-URI."
+   ],
+   "verdicts": [
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1293
+  },
+  "18": {
+   "status": "ok",
+   "claims": [
+    "ACE inhibitors",
+    "enalapril",
+    "calcium channel blockers",
+    "amlodipine"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1217
+  },
+  "19": {
+   "status": "ok",
+   "claims": [
+    "ACE inhibitors",
+    "enalapril",
+    "calcium channel blockers",
+    "amlodipine"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1213
+  },
+  "20": {
+   "status": "ok",
+   "claims": [
+    "a tunnel is not considered a party to the HTTP communication",
+    "a proxy is allowed to use an internal cache",
+    "a gateway is allowed to use an internal cache",
+    "tunnels are not considered parties to the HTTP communication and therefore cannot use an internal cache"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 0.75,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1213
+  },
+  "21": {
+   "status": "ok",
+   "claims": [
+    "PUT method requests that the enclosed entity be stored under the supplied Request-URI",
+    "DELETE method requests that the origin server delete the resource identified by the Request-URI",
+    "PUT is used to create or modify a resource",
+    "DELETE is used to remove a resource"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1254
+  },
+  "22": {
+   "status": "no_claims",
+   "claims": [],
+   "verdicts": [],
+   "found_fraction": null,
+   "faithfulness": null,
+   "max_prompt_tokens": 194
+  },
+  "23": {
+   "status": "ok",
+   "claims": [
+    "Unhealthy diets (excessive salt consumption, a diet high in saturated fat and trans fats, low intake of fruits and vegetables)",
+    "Physical inactivity",
+    "Consumption of tobacco and alcohol",
+    "Being overweight or obese",
+    "Raised blood pressure",
+    "Raised blood glucose",
+    "Raised blood lipids",
+    "Overweight and obesity",
+    "Heart attacks (caused by raised blood pressure)",
+    "Strokes (caused by raised blood pressure)",
+    "Heart failure (caused by raised blood pressure)"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 0.8181818181818182,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1329
+  },
+  "24": {
+   "status": "ok",
+   "claims": [
+    "the ETag response-header field provides the current value of the entity tag for the requested variant",
+    "the entity tag MAY be used for comparison with other entities from the same resource",
+    "the ETag header is used alongside or instead of Last-Modified to provide a more precise way of identifying the version of a resource",
+    "Last-Modified indicates when the resource was last modified",
+    "ETag provides a unique identifier that can be used for comparison with other versions of the same resource",
+    "ETag is useful in situations where the modification time of the resource may not accurately reflect its current state",
+    "the use of ETag alongside or instead of Last-Modified allows for more precise caching and validation of resources, as well as improved handling of concurrent updates and revisions",
+    "Target 9 states that there should be 80% availability of the affordable basic technologies and essential medicines, including generics, required to treat major NCDs in both public and private facilities"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.875,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1513
+  },
+  "25": {
+   "status": "ok",
+   "claims": [
+    "Global Hearts Initiative is a program",
+    "program supports governments in strengthening the prevention and control of cardiovascular disease",
+    "Global Hearts Initiative was launched by WHO and the U.S. CDC",
+    "launch date is September 2016",
+    "goal of the initiative is to improve cardiovascular health in countries across the world"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1348
+  },
+  "26": {
+   "status": "ok",
+   "claims": [
+    "information a Receiving Party discloses to its own representatives under Section 2(b) can still qualify for the independent-development exception in Section 3(d)",
+    "Section 2(b) allows the Receiving Party to disclose Confidential Information to its employees, agents, advisors, contractors, and other representatives having a reasonable need to know for the Purpose, provided these representatives are bound by confidentiality obligations no less protective than the applicable terms in this MNDA",
+    "Section 3(d) states that information can qualify for the independent-development exception if it was independently developed without using or referencing the Confidential Information",
+    "the Receiving Party disclosed the information to its own representatives under Section 2(b) does not necessarily preclude it from later claiming that the information was independently developed by one of those representatives",
+    "if one of those representatives can demonstrate that they independently developed the information without using or referencing the original Confidential Information, then the independent-development exception in Section 3(d) could still apply",
+    "it is possible for information a Receiving Party discloses to its own representatives under Section 2(b) to later qualify for the independent-development exception in Section 3(d)"
+   ],
+   "verdicts": [
+    "NOT_FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 0.8333333333333334,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1281
+  },
+  "27": {
+   "status": "ok",
+   "claims": [
+    "the four exceptions under which the Receiving Party's confidentiality obligations do not apply",
+    "the information is or becomes publicly available through no fault of the Receiving Party",
+    "the Receiving Party rightfully knew or possessed prior to receipt from the Disclosing Party without confidentiality restrictions",
+    "the Receiving Party rightfully obtained from a third party without confidentiality restrictions",
+    "the Receiving Party independently developed without using or referencing the Confidential Information"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1244
+  },
+  "28": {
+   "status": "ok",
+   "claims": [
+    "WHO's 2021 pharmacological treatment guideline",
+    "Global Hearts Initiative",
+    "comprehensive approach to reducing hypertension",
+    "evidence-based recommendations for the initiation of treatment of hypertension",
+    "strategic approach to improve cardiovascular health in countries across the world",
+    "target blood pressure to be achieved",
+    "guidance on who can initiate treatment",
+    "strengthening the prevention and control of cardiovascular disease",
+    "six modules",
+    "promoting healthy lifestyle counselling",
+    "evidence-based treatment protocols",
+    "access to essential medicines and technology",
+    "risk-based management",
+    "team-based care",
+    "systems for monitoring"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1135
+  },
+  "29": {
+   "status": "ok",
+   "claims": [
+    "19.8 million people died from CVDs in 2022",
+    "32% of all global deaths were from CVDs in 2022",
+    "23% of adults with hypertension have it under control",
+    "most cardiovascular diseases can be prevented by addressing behavioural and environmental risk factors",
+    "hypertension is a major risk factor for CVDs",
+    "73.6 million adults with hypertension are either unaware they have the condition or are not receiving adequate treatment",
+    "this could lead to a significant number of premature deaths from CVDs",
+    "the 23% control rate matters for global cardiovascular mortality"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1251
+  },
+  "30": {
+   "status": "ok",
+   "claims": [
+    "According to Section 4 of the MNDA",
+    "the Receiving Party may disclose Confidential Information if required by law, regulation, regulatory authority, subpoena, or court order",
+    "the Receiving Party must provide the Disclosing Party with reasonable advance notice of the required disclosure",
+    "the Receiving Party must reasonably cooperate, at the Disclosing Party's expense, with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information",
+    "this provision interacts with the general confidentiality obligations in Section 2",
+    "the general confidentiality obligations in Section 2 prohibit the Receiving Party from disclosing Confidential Information without permission",
+    "Section 4 allows for disclosures required by law, but only if the Disclosing Party is given reasonable advance notice and has an opportunity to cooperate in seeking confidential treatment"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 0.8571428571428571,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1313
+  },
+  "31": {
+   "status": "ok",
+   "claims": [
+    "Delaware",
+    "63%",
+    "California",
+    "16%",
+    "New York",
+    "10%"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "NOT_FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.5,
+   "faithfulness": 3.0,
+   "max_prompt_tokens": 1304
+  },
+  "32": {
+   "status": "ok",
+   "claims": [
+    "A mutual NDA makes both signing parties simultaneously a Disclosing Party and a Receiving Party",
+    "A mutual nondisclosure agreement, also called a bilateral NDA, requires both parties to the NDA to protect the confidential information disclosed under the terms of the confidentiality agreement",
+    "The WHO Eastern Mediterranean Region has the highest prevalence of hypertension (38%)",
+    "The WHO Western Pacific Region has the lowest prevalence of hypertension (29%)"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.5,
+   "faithfulness": 3.0,
+   "max_prompt_tokens": 1261
+  },
+  "33": {
+   "status": "ok",
+   "claims": [
+    "Coronary heart disease",
+    "Cerebrovascular disease",
+    "Peripheral arterial disease",
+    "Rheumatic heart disease",
+    "Congenital heart disease",
+    "Deep vein thrombosis and pulmonary embolism",
+    "The origin server MUST create the resource before returning the 201 status code"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.8571428571428571,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1341
+  },
+  "34": {
+   "status": "ok",
+   "claims": [
+    "19.8 million people died from Cardiovascular diseases (CVDs) in 2022",
+    "32% of all global deaths were caused by cardiovascular disease",
+    "85% of CVD deaths were due to heart attack and stroke"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1378
+  },
+  "35": {
+   "status": "ok",
+   "claims": [
+    "Coronary heart disease",
+    "Cerebrovascular disease",
+    "Peripheral arterial disease",
+    "Rheumatic heart disease",
+    "Congenital heart disease",
+    "Deep vein thrombosis and pulmonary embolism"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1365
+  },
+  "36": {
+   "status": "ok",
+   "claims": [
+    "blood pressure goal for people with diabetes is less than 130/80"
+   ],
+   "verdicts": [
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1301
+  },
+  "37": {
+   "status": "ok",
+   "claims": [
+    "blood pressure goal is less than 130/80",
+    "people with diabetes",
+    "blood pressure goal of less than 130/80 applies to people with diabetes"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1489
+  },
+  "38": {
+   "status": "ok",
+   "claims": [
+    "unhealthy diets",
+    "physical inactivity",
+    "consumption of tobacco and alcohol",
+    "being overweight or obese",
+    "high-salt diet",
+    "drinking too much alcohol"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1318
+  },
+  "39": {
+   "status": "ok",
+   "claims": [
+    "Any party to the communication which is not acting as a tunnel may employ an internal cache for handling requests.",
+    "A gateway, unlike a proxy, receives requests as if it were the origin server for the requested resource.",
+    "A tunnel, by definition, is an intermediary program that acts as a blind relay between two connections.",
+    "Once active, a tunnel is not considered a party to the HTTP communication.",
+    "A tunnel is not allowed to use an internal cache.",
+    "Only proxies are allowed to use an internal cache."
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.6666666666666666,
+   "faithfulness": 3.0,
+   "max_prompt_tokens": 1272
+  },
+  "40": {
+   "status": "ok",
+   "claims": [
+    "Aspirin",
+    "Beta-blockers",
+    "Calcium channel blockers",
+    "Angiotensin-converting enzyme inhibitors",
+    "Diuretics",
+    "Statins"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1543
+  },
+  "41": {
+   "status": "ok",
+   "claims": [
+    "1.4 billion adults",
+    "30-79 years",
+    "2024",
+    "33%",
+    "hypertension"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1282
+  },
+  "42": {
+   "status": "ok",
+   "claims": [
+    "According to medical_cvd_who.txt, basic medicines that should be available for cardiovascular disease patients include Aspirin",
+    "According to medical_cvd_who.txt, basic medicines that should be available for cardiovascular disease patients include Beta-blockers",
+    "According to medical_cvd_who.txt, basic medicines that should be available for cardiovascular disease patients include Calcium channel blockers",
+    "According to medical_cvd_who.txt, basic medicines that should be available for cardiovascular disease patients include Angiotensin-converting enzyme inhibitors",
+    "According to medical_cvd_who.txt, basic medicines that should be available for cardiovascular disease patients include Diuretics",
+    "According to medical_cvd_who.txt, basic medicines that should be available for cardiovascular disease patients include Statins",
+    "HTTP has been in use by the World-Wide Web global information initiative since 1990"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.8571428571428571,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1391
+  },
+  "43": {
+   "status": "ok",
+   "claims": [
+    "WHO Eastern Mediterranean Region has the highest prevalence of hypertension (38%)",
+    "WHO Western Pacific Region has the lowest prevalence of hypertension (29%)"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1354
+  },
+  "44": {
+   "status": "ok",
+   "claims": [
+    "freshness lifetime refers to the length of time between the generation of a response and its expiration time",
+    "age is the time since it was sent by, or successfully validated with, the origin server",
+    "a response is considered 'fresh' if its age has not yet exceeded its freshness lifetime",
+    "the freshness lifetime sets an upper bound on how old a response can be and still be considered fresh",
+    "the age measures how long ago the response was generated or validated with the origin server",
+    "as long as the age is within the freshness lifetime, the response is fresh",
+    "otherwise, it's stale"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1266
+  },
+  "45": {
+   "status": "ok",
+   "claims": [
+    "The Cache-Control header field is used to specify directives that MUST be obeyed by all caching mechanisms along the request/response chain",
+    "These directives typically override the default caching algorithms and are unidirectional",
+    "The Cache-Control header field relates to the general expiration model described for HTTP caching",
+    "The directives specified in this header field can influence how caches handle responses",
+    "For example, the 'max-age' directive allows a client to specify the maximum age it is willing to accept of an unvalidated response",
+    "In particular, the Cache-Control header field provides mechanisms for clients to control cache behavior in situations where the origin server does not provide explicit expiration times",
+    "By specifying directives such as 'max-age' or 'max-stale', a client can influence how caches handle responses and ensure that they are returned in a timely manner"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1503
+  },
+  "46": {
+   "status": "ok",
+   "claims": [
+    "two years",
+    "74%",
+    "Delaware",
+    "63%",
+    "California",
+    "16%",
+    "New York",
+    "10%"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.75,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1124
+  },
+  "47": {
+   "status": "ok",
+   "claims": [
+    "Coronary artery bypass",
+    "Balloon angioplasty",
+    "Valve repair and replacement",
+    "Heart transplantation",
+    "Artificial heart operations"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1479
+  },
+  "48": {
+   "status": "ok",
+   "claims": [
+    "The WHO's 2021 pharmacological treatment guideline for hypertension in adults",
+    "Global Hearts Initiative",
+    "evidence-based recommendations for the initiation of treatment of hypertension",
+    "recommended intervals for follow-up",
+    "target blood pressure to be achieved for control",
+    "who in the healthcare system can initiate treatment",
+    "six modules",
+    "strategic approach to improve cardiovascular health",
+    "six modules provide a framework for implementing evidence-based interventions",
+    "aim to support national governments to implement the Global Hearts Initiative",
+    "provides a broader context for addressing hypertension",
+    "enables WHO to respond effectively to hypertension as a public health problem",
+    "reduce the burden of hypertension",
+    "improve the overall health of their populations"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1123
+  },
+  "49": {
+   "status": "ok",
+   "claims": [
+    "a response is fresh if its age has not yet exceeded its freshness lifetime",
+    "the age of a response is the time since it was sent by, or successfully validated with, the origin server",
+    "freshness lifetime is the length of time between the generation of a response and its expiration time",
+    "a cached HTTP response is considered 'fresh' if the time elapsed since the response was generated (its age) has not exceeded the time until it expires (its freshness lifetime)",
+    "if the age exceeds the freshness lifetime, the response is considered 'stale'"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1281
+  },
+  "50": {
+   "status": "ok",
+   "claims": [
+    "the global number of adults with hypertension increased from 650 million in 1990 to 1.4 billion in 2024",
+    "approximately 320 million adults with hypertension (23%) have it under control"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1173
+  },
+  "51": {
+   "status": "ok",
+   "claims": [
+    "According to Section 8 of the provided context",
+    "all Confidential Information is provided 'as is', with all faults, and without warranties",
+    "the disclaimer that applies to Confidential Information shared under the MNDA is: 'as is', with all faults, and without warranties",
+    "warranties include the implied warranties of title, merchantability and fitness for a particular purpose"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND"
+   ],
+   "found_fraction": 0.75,
+   "faithfulness": 4.0,
+   "max_prompt_tokens": 1454
+  },
+  "52": {
+   "status": "ok",
+   "claims": [
+    "POST method is designed to allow a uniform method to cover the following functions",
+    "POST is not a 'safe' method because it can modify the resource identified by the Request-URI",
+    "PUT and DELETE are also not 'safe' methods because they modify the state of the origin server",
+    "GET is a 'safe' method because it only retrieves information from the origin server without modifying its state",
+    "The distinction between 'safe' and 'idempotent' methods matters for whether a response can be cached",
+    "A cacheable response is one that can be stored in a cache for later use",
+    "If a method is not safe, it may modify the state of the origin server, which means that caching the response could lead to unexpected behavior or inconsistencies",
+    "GET requests are safe and can be safely cached without worrying about modifying the state of the origin server",
+    "POST, PUT, and DELETE are not 'safe' methods that should not be cached"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "NOT_FOUND",
+    "NOT_FOUND",
+    "FOUND",
+    "NOT_FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 0.5555555555555556,
+   "faithfulness": 3.0,
+   "max_prompt_tokens": 1210
+  },
+  "53": {
+   "status": "ok",
+   "claims": [
+    "a party may assign this MNDA",
+    "merger",
+    "reorganization",
+    "acquisition",
+    "transfer of all or substantially all its assets or voting securities"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1212
+  },
+  "54": {
+   "status": "ok",
+   "claims": [
+    "According to Section 7 of the provided context (source: legal_mutual_nda_commonpaper.txt), the Disclosing Party retains all of its intellectual property and other rights in its Confidential Information.",
+    "The disclosure of Confidential Information to the Receiving Party grants no license under such rights."
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1258
+  },
+  "55": {
+   "status": "ok",
+   "claims": [
+    "a proxy is an intermediary program that acts as both a server and a client",
+    "requests are serviced internally or by passing them on, with possible translation, to other servers",
+    "a 'transparent proxy' is a proxy that does not modify the request or response beyond what is required for proxy authentication and identification",
+    "a 'non-transparent proxy' is a proxy that modifies the request or response in order to provide some added service to the user agent",
+    "a gateway is a server which acts as an intermediary for some other server",
+    "a gateway receives requests as if it were the origin server for the requested resource; the requesting client may not be aware that it is communicating with a gateway",
+    "the main difference between a proxy and a gateway is that a proxy acts as both a server and a client, while a gateway receives requests as if it were the origin server for the requested resource"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1416
+  },
+  "56": {
+   "status": "ok",
+   "claims": [
+    "the main difference between the GET and POST methods is that the GET method SHOULD NOT have the significance of taking an action other than retrieval",
+    "the POST method is designed to allow a uniform method to cover various functions such as annotation of existing resources, posting a message, providing data to a process, or extending a database",
+    "the POST method can result in a resource being created or modified on the origin server",
+    "the GET method is intended for retrieving information without modifying any resources",
+    "the POST method can be used to create or modify resources on the origin server",
+    "the key difference between GET and POST methods is that GET is intended for retrieval only, while POST can be used to create or modify resources on the origin server"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1259
+  },
+  "57": {
+   "status": "ok",
+   "claims": [
+    "Pain or discomfort in the centre of the chest",
+    "Pain or discomfort in the arms, the left shoulder, elbows, jaw, or back",
+    "Difficulty in breathing or shortness of breath",
+    "Nausea or vomiting",
+    "Light-headedness or faintness",
+    "A cold sweat",
+    "Turning pale",
+    "Shortness of breath",
+    "Nausea",
+    "Vomiting",
+    "Back or jaw pain"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1260
+  },
+  "58": {
+   "status": "ok",
+   "claims": [
+    "1.4 billion adults",
+    "30-79 years",
+    "2024",
+    "33%",
+    "worldwide"
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1153
+  },
+  "59": {
+   "status": "ok",
+   "claims": [
+    "According to Section 4 of the Mutual Non-Disclosure Agreement (MNDA), the Receiving Party may disclose Confidential Information to the extent required by law, regulation or regulatory authority, subpoena or court order.",
+    "The Receiving Party is required to provide the Disclosing Party with reasonable advance notice of the required disclosure.",
+    "The Receiving Party is required to reasonably cooperate, at the Disclosing Party's expense, with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information.",
+    "This provision interacts with the general confidentiality obligations in Section 2.",
+    "Section 4 provides an exception to the general confidentiality obligations in Section 2 when a disclosure is required by law or regulation.",
+    "The Receiving Party is not exempt from its confidentiality obligations simply because a disclosure is required by law."
+   ],
+   "verdicts": [
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND",
+    "FOUND"
+   ],
+   "found_fraction": 1.0,
+   "faithfulness": 5.0,
+   "max_prompt_tokens": 1477
+  }
+ }
+}

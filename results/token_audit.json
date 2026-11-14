@@ -1,0 +1,35 @@
+{
+ "nonce_overhead_tokens": 35,
+ "num_ctx": 8192,
+ "max_by_system": {
+  "naive_rag": {
+   "generation": 1557,
+   "extraction": 482,
+   "verification": 1392,
+   "relevance": 1662,
+   "context_chars": 6294
+  },
+  "bm25_hybrid": {
+   "generation": 1551,
+   "extraction": 433,
+   "verification": 1394,
+   "relevance": 1728,
+   "context_chars": 6294
+  },
+  "graph_rag": {
+   "generation": 1840,
+   "extraction": 613,
+   "verification": 1535,
+   "relevance": 1893,
+   "context_chars": 7028
+  }
+ },
+ "max_overall": {
+  "generation": 1840,
+  "extraction": 613,
+  "verification": 1535,
+  "relevance": 1893,
+  "context_chars": 7028
+ },
+ "any_prompt_at_or_above_window": false
+}

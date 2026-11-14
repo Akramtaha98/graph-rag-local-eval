@@ -1,0 +1,13 @@
+id,n_claims,best_overlap,verdict,found_fraction,score,outcome
+8,12,0.1,,1.0,5,not extracted
+9,2,0,,1.0,5,not extracted
+10,4,1.0,FOUND,1.0,5,verified as found
+19,4,0,,1.0,5,not extracted
+24,10,1.0,NOT_FOUND,0.9,5,"flagged, score still 5"
+26,6,0,,1.0,5,not extracted
+32,4,0.6,NOT_FOUND,0.5,3,"flagged, score below 5"
+33,6,0,,1.0,5,not extracted
+37,4,0.11,,1.0,5,not extracted
+42,7,1.0,NOT_FOUND,0.857,4,"flagged, score below 5"
+50,2,0.07,,1.0,5,not extracted
+56,9,0.11,,1.0,5,not extracted

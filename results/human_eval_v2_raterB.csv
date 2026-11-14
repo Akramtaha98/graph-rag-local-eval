@@ -1,0 +1,395 @@
+id,question,context,answer,human_faithfulness,human_relevance,notes
+0,"How did the global number of adults with hypertension change between 1990 and 2024, and what fraction of people with hypertension currently have it under control?","[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 45f49f9d474e, ac53ab75d590, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to passage [2], the global number of adults with hypertension increased from 650 million in 1990 to 1.4 billion in 2024.
+
+Regarding the second part of the question, according to passage [1], approximately 320 million adults with hypertension (23%) have it under control.
+
+So, the answer is: The global number of adults with hypertension increased by 750 million between 1990 and 2024, representing a change from 650 million to 1.4 billion. Additionally, about 23% of people with hypertension currently have it under control.",5,5,
+1,Both fact sheets reference global NCD targets for 2025. What is the hypertension-specific target and how does it relate to Target 6 in the cardiovascular disease fact sheet?,"[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 898843a425d9, 9ebeef531cba, af2422ea0652, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","According to [1] (medical_cvd_who.txt), one of the voluntary global targets is to reduce the global prevalence of raised blood pressure by 25% between 2010 and 2025. This target is mentioned as part of the Global action plan for the prevention and control of NCDs 2013-2020.
+
+In [2] (medical_hypertension_who.txt), it is stated that one of the global targets for noncommunicable diseases is to reduce the prevalence of uncontrolled hypertension by 25% between 2010 and 2025. This target is mentioned as a key fact in the ""Hypertension"" fact sheet.
+
+Therefore, the hypertension-specific target is to reduce the prevalence of uncontrolled hypertension by 25% between 2010 and 2025. This target relates to Target 6 in the cardiovascular disease fact sheet ([1]) which aims to reduce the global prevalence of raised blood pressure by 25% between 2010 and 2025, as both targets share a common goal of reducing the burden of hypertension and its related complications.",5,5,
+2,"What does the ETag header field do, and why is it used alongside or instead of Last-Modified?","[context withheld (third-party text); chunk ids: 13378277ef51, 29037d10750e, 2d631f702e3f, 301d799cb97d, 3385b943b9b2, 3d8012932ca0, 8fcafc296f4c, 93167d978316; triples are in data/index/knowledge_graph.pkl]","According to passage [2], the ETag response-header field provides the current value of the entity tag for the requested variant. The entity tag MAY be used for comparison with other entities from the same resource (see section 13.3.3).
+
+The ETag header is used alongside or instead of Last-Modified because it provides a more precise way to identify the version of a resource, whereas Last-Modified only indicates when the resource was last modified. This is evident in passage [1], which states that an origin server MUST NOT send a Last-Modified date which is later than the server's time of message origination, implying that Last-Modified can be inaccurate or outdated.
+
+In contrast, ETag provides a unique identifier for each version of a resource, allowing clients to compare and verify the integrity of the received data. This is particularly important in scenarios where multiple versions of a resource exist, such as with dynamically included parts or database gateways (as mentioned in passage [1]).
+
+Therefore, the ETag header field is used alongside or instead of Last-Modified to provide a more robust and precise way to identify and manage different versions of a resource.",4,5,Slight extrapolation on ETag robust management
+3,What are the six modules of the HEARTS technical package?,"[context withheld (third-party text); chunk ids: 45f49f9d474e, 84c6727e13dd, 898843a425d9, ac53ab75d590, af2422ea0652; triples are in data/index/knowledge_graph.pkl]","The six modules of the HEARTS technical package are:
+
+1. Healthy-lifestyle counselling
+2. Evidence-based treatment protocols
+3. Access to essential medicines and technology
+4. Risk-based management
+5. Team-based care
+6. Systems for monitoring (source: medical_hypertension_who.txt)",5,5,
+4,"What does it mean for an HTTP response to be ""cacheable""?","[context withheld (third-party text); chunk ids: 1038696b5ccf, 459a48bdf49e, 562016367d40, bb09e2e9fa96, c49e1380bc43, f64977ae63a5, fe4d041a46ef; triples are in data/index/knowledge_graph.pkl]","According to the provided context, a response is cacheable if a cache is allowed to store a copy of the response message for use in answering subsequent requests (source: [1]). The rules for determining the cacheability of HTTP responses are defined in section 13.",5,5,
+5,Explain how HTTP's stateless nature relates to the purpose of the Host request header and persistent connections.,"[context withheld (third-party text); chunk ids: 183a33b91be1, 1ee677753de9, 3a625a8313f9, 4b1ec35f6a05, c9f1aca3969d, ca3b4baf70a4, ccd03a7629ae; triples are in data/index/knowledge_graph.pkl]","The provided context does not contain enough information to answer this question. The text passages only discuss HTTP/1.1, its features (persistent connections, pipelining), and specific headers (Connection, Upgrade, Host). There is no mention of HTTP's stateless nature or how it relates to the purpose of the Host request header and persistent connections.
+
+To provide a complete answer, additional context would be necessary to explain how HTTP's stateless nature affects the use of the Host request header and persistent connections.",5,1,Context does not contain info
+6,What lifestyle changes are recommended to help prevent or lower high blood pressure?,"[context withheld (third-party text); chunk ids: 1e7cd0db9422, 37cdb7307242, 7a036c95d9b1, 875b18e2f561, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to the provided context, the following lifestyle changes are recommended to help prevent or lower high blood pressure:
+
+* Eat a healthy, low-salt diet (Source: [1])
+* Lose weight if overweight or obese
+* Be more physically active (walking, running, swimming, dancing, or strength-building activities)
+* Get at least 150 minutes per week of moderate-intensity aerobic activity or 75 minutes per week of vigorous aerobic activity
+* Reduce and manage stress
+* Regularly check blood pressure
+
+These lifestyle changes are mentioned in both [1] and [3], which are the same source (medical_hypertension_who.txt).",5,5,
+7,"How do ""freshness lifetime"" and ""age"" work together to determine whether a cached HTTP response is ""fresh"" or ""stale""?","[context withheld (third-party text); chunk ids: 459a48bdf49e, 562016367d40, af79bb749ff0, bb09e2e9fa96, ca3b4baf70a4, fb78c87f9e24, fe4d041a46ef; triples are in data/index/knowledge_graph.pkl]","According to the provided context, specifically [1] and [2], a response is fresh if its age has not yet exceeded its freshness lifetime. The age of a response is the time since it was sent by, or successfully validated with, the origin server. Freshness lifetime is the length of time between the generation of a response and its expiration time.
+
+In other words, a cached HTTP response is considered ""fresh"" if the time elapsed since it was sent by the origin server (its age) has not yet exceeded the time until it expires (its freshness lifetime). If the age exceeds the freshness lifetime, the response is considered ""stale"".
+
+Sources: [1], [2]",5,5,
+8,What lifestyle changes are recommended to help prevent or lower high blood pressure?,"[context withheld (third-party text); chunk ids: 1e7cd0db9422, 37cdb7307242, 4043d51aac8c, 7a036c95d9b1, 875b18e2f561, b34959bd5260, b3537d5c20f0; triples are in data/index/knowledge_graph.pkl]","According to the provided context [1] and [2], lifestyle changes that can help lower high blood pressure include:
+
+* Eating a healthy, low-salt diet
+* Losing weight if overweight or obese
+* Being physically active (walking, running, swimming, dancing, or strength-building activities)
+* Getting at least 150 minutes per week of moderate-intensity aerobic activity or 75 minutes per week of vigorous aerobic activity
+* Plus strength building exercises 2 or more days each week
+
+Additionally, the context [1] and [2] recommend:
+
+* Eating more vegetables and fruits
+* Sitting less
+* Quitting tobacco
+* Losing weight if overweight or obese
+* Taking medicines as prescribed
+* Keeping appointments with your health care professional
+
+These lifestyle changes can help lower high blood pressure and reduce the risk of heart attack, stroke, and kidney damage. A weight is normalized to a real number in the range 0 through 1, where 0 is the minimum and 1 the maximum value.",4,5,Hallucinated sentence about weight normalization
+9,"What is the difference between a mutual NDA and a unilateral NDA, according to the background notes?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to the context [1], a mutual NDA (also called a bilateral NDA) requires both parties to protect confidential information disclosed under the terms of the confidentiality agreement. In contrast, a unilateral NDA only protects the confidential information of one party.
+
+Source: [1] The client SHOULD continue by sending the remainder of the request or, if the request has already been completed, ignore this response.",4,5,Hallucinated HTTP text
+10,How do the notice requirements for disclosures required by law (Section 4) interact with the general confidentiality obligations in Section 2?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 4 of the Mutual Non-Disclosure Agreement (MNDA), if a disclosure is required by law, regulation or regulatory authority, subpoena or court order, the Receiving Party may disclose Confidential Information. However, it must provide the Disclosing Party with reasonable advance notice of the required disclosure and reasonably cooperate, at the Disclosing Party's expense, with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information.
+
+This provision interacts with the general confidentiality obligations in Section 2 by allowing the Receiving Party to disclose Confidential Information when required by law, while still providing the Disclosing Party with an opportunity to take steps to protect the confidentiality of that information. The notice requirement ensures that the Disclosing Party is aware of the planned disclosure and can work together with the Receiving Party to minimize any potential harm from the disclosure.
+
+In other words, Section 4 provides a mechanism for the Receiving Party to disclose Confidential Information when required by law, while still honoring its general confidentiality obligations in Section 2. (Source: [3]) Rheumatic fever is caused by an abnormal response of the body to infection with streptococcal bacteria, which usually begins as a sore throat or tonsillitis in children.",4,5,Hallucinated CVD text
+11,"If a party breaches the MNDA, what remedy can the Disclosing Party seek, and how does this relate to the survival of confidentiality obligations after termination described elsewhere in the agreement?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 11 of the text passage [3], if any provision of this MNDA is held unenforceable, it will be limited to the minimum extent necessary so that the rest of this MNDA remains in effect. This implies that the Disclosing Party may seek equitable relief as a remedy for breach of the MNDA.
+
+The survival of confidentiality obligations after termination described elsewhere in the agreement (Section 6) is related to the remedy sought by the Disclosing Party. Specifically, Section 6 states that the Receiving Party's obligations relating to Confidential Information will survive for the Term of Confidentiality, despite any expiration or termination of this MNDA. This means that even if the MNDA is terminated, the confidentiality obligations remain in effect, and the Disclosing Party can still seek remedies for breach of those obligations.
+
+In summary, if a party breaches the MNDA, the Disclosing Party may seek equitable relief as a remedy, and this relates to the survival of confidentiality obligations after termination, which ensures that the Receiving Party's obligations regarding Confidential Information continue even after the MNDA expires or is terminated.",5,5,
+12,What is the difference between the OPTIONS and HEAD methods in HTTP?,"[context withheld (third-party text); chunk ids: 0beda43bc774, 2547f72c1587, 3bc2f26bfb35, 57f7286eefcf, 7868ac9fe355, 8ab03d6c39ac, d02ff1ec8db5; triples are in data/index/knowledge_graph.pkl]","According to [2] (source: technical_http_rfc2616_trim.txt), the convention has been established that the GET and HEAD methods SHOULD NOT have the significance of taking an action other than retrieval. These methods ought to be considered ""safe"". This allows user agents to represent other methods, such as POST, PUT and DELETE, in a special way, so that the user is made aware of the fact that a possibly unsafe action is being requested.
+
+The OPTIONS method, on the other hand, represents a request for information about the communication options available on the request/response chain identified by the Request-URI. This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating a resource retrieval.
+
+In summary, the main difference between the OPTIONS and HEAD methods is that HEAD is used for retrieving metadata about a resource, whereas OPTIONS is used for discovering the available communication options on the request/response chain.",5,5,
+13,What does the HTTP status code 404 mean?,"[context withheld (third-party text); chunk ids: 14c11cf19b7c, 24cfe20d3d16, 32b951d9ce9a, 6f45ab6e60c5, 75af20ad8851, 8169008f1118, c2f64126e729, c740946d3cba, d02ff1ec8db5, f5fd6572da6b; triples are in data/index/knowledge_graph.pkl]","According to the provided context [2] (source: technical_http_rfc2616_trim.txt), the HTTP status code 404 means that ""the server has not found anything matching the Request-URI. No indication is given of whether the condition is temporary or permanent.""",5,5,
+14,Both fact sheets reference global NCD targets for 2025. What is the hypertension-specific target and how does it relate to Target 6 in the cardiovascular disease fact sheet?,"[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 45f49f9d474e, 898843a425d9, ac53ab75d590, af2422ea0652; triples are in data/index/knowledge_graph.pkl]","According to [1] (medical_cvd_who.txt), one of the global targets for noncommunicable diseases is to reduce the prevalence of uncontrolled hypertension by 25% between 2010 and 2025. This target is not explicitly mentioned in the provided context as ""Target 6"", but it can be inferred that this target relates to Target 6: Reduce global prevalence of raised blood pressure by 25% between 2010 and 2025, which directly focuses on preventing and controlling CVDs.
+
+In other words, the hypertension-specific target is to reduce the prevalence of uncontrolled hypertension by 25%, and it is related to Target 6 in the cardiovascular disease fact sheet as both targets aim to reduce the global prevalence of raised blood pressure.",5,5,
+15,What are the modifiable risk factors for hypertension listed in the fact sheet?,"[context withheld (third-party text); chunk ids: 37cdb7307242, 4043d51aac8c, 45f49f9d474e, 7a036c95d9b1, 875b18e2f561, b34959bd5260, b3537d5c20f0; triples are in data/index/knowledge_graph.pkl]","According to the provided context [1], the modifiable risk factors for hypertension include:
+
+* Unhealthy diets (excessive salt consumption, a diet high in saturated fat and trans fats, low intake of fruits and vegetables)
+* Physical inactivity
+* Consumption of tobacco and alcohol
+* Being overweight or obese
+
+These are mentioned under the section ""RISK FACTORS"" in the text passage [1].",5,5,
+16,"What blood pressure goal applies to people with diabetes, according to the treatment guidance?","[context withheld (third-party text); chunk ids: 1e7cd0db9422, 371d5cc719df, 37cdb7307242, 45f49f9d474e, 875b18e2f561, ac53ab75d590, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to text passage [1], for people with diabetes (high blood sugar), the recommended blood pressure goal is less than 130/80. This information is provided in the context of discussing treatment options and goals for high blood pressure.
+
+Source: [1]",5,5,
+17,What does the HTTP status code 404 mean?,"[context withheld (third-party text); chunk ids: 14c11cf19b7c, 24cfe20d3d16, 32b951d9ce9a, 6f45ab6e60c5, 75af20ad8851, 8169008f1118, c2f64126e729, c740946d3cba, d02ff1ec8db5, f5fd6572da6b; triples are in data/index/knowledge_graph.pkl]","The provided context contains information about HTTP status codes, and we can find the answer to this question in passage [2]. According to that passage, the HTTP status code 404 (Not Found) means that the server has not found anything matching the Request-URI. No indication is given of whether the condition is temporary or permanent.
+
+Therefore, the answer is: The HTTP status code 404 means that the server has not found anything matching the Request-URI.",5,5,
+18,Name two classes of blood pressure medicine and give one example drug for each.,"[context withheld (third-party text); chunk ids: 1e7cd0db9422, 371d5cc719df, 37cdb7307242, 875b18e2f561, af2422ea0652, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","Based on the provided context, specifically from [1] (source: medical_hypertension_who.txt), I found that there are several common blood pressure medicines mentioned. Two classes of blood pressure medicine mentioned are:
+
+1. ACE inhibitors: One example drug is enalapril.
+2. Calcium channel blockers: One example drug is amlodipine.
+
+These answers come from the text passage [1] which discusses various types of blood pressure medicines, including ACE inhibitors and calcium channel blockers, along with specific examples like enalapril and amlodipine.",5,5,
+19,Name two classes of blood pressure medicine and give one example drug for each.,"[context withheld (third-party text); chunk ids: 1e7cd0db9422, 371d5cc719df, 37cdb7307242, 45f49f9d474e, 875b18e2f561, af2422ea0652, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","Based on the provided context, specifically from [1] (source: medical_hypertension_who.txt), I can answer your question as follows:
+
+Two classes of blood pressure medicines mentioned are:
+
+1. ACE inhibitors: One example drug is enalapril.
+2. Calcium channel blockers: One example drug is amlodipine.
+
+These examples come from the text passage [1], which lists several common blood pressure medicines, including ACE inhibitors and calcium channel blockers. quoted-string = ( <""> *(qdtext | quoted-pair ) <""> ) qdtext = <any TEXT except <"">> The backslash character (""\"") MAY be used as a single-character quoting mechanism only within quoted-string and comment constructs.",4,5,Hallucinated HTTP text
+20,"Based on the definitions of proxy, gateway, and tunnel, and the rules on caching, which of these three intermediary types is allowed to use an internal cache, and why do the other types differ?","[context withheld (third-party text); chunk ids: 1038696b5ccf, 31fa17881ad0, 5199f2f3775f, 562016367d40, d94b418a3c6c, fd5abdbb9605; triples are in data/index/knowledge_graph.pkl]","Based on the context, a tunnel is not considered a party to the HTTP communication, though it may have been initiated by an HTTP request (source [1]). This implies that a tunnel cannot use an internal cache.
+
+A proxy, on the other hand, is allowed to use an internal cache. According to source [2], ""Any party to the communication which is not acting as a tunnel may employ an internal cache for handling requests.""
+
+A gateway is also allowed to use an internal cache, as it is considered a receiving agent that acts as a layer above some other server(s) and translates requests to the underlying server's protocol. Since a gateway is not a tunnel, it can use an internal cache.
+
+In summary, only proxies and gateways are allowed to use an internal cache, while tunnels are not considered parties to the HTTP communication and therefore cannot use an internal cache.",5,5,
+21,What is the difference between the PUT and DELETE methods in HTTP?,"[context withheld (third-party text); chunk ids: 031bbd20b60b, 346bc5eb59e1, 84e5f065eda6, f6a8942885f7, f938fa892c4d; triples are in data/index/knowledge_graph.pkl]","According to [1] and [2], the main difference between the PUT and DELETE methods in HTTP is that:
+
+* The PUT method requests that the enclosed entity be stored under the supplied Request-URI. If the Request-URI refers to an already existing resource, the enclosed entity SHOULD be considered as a modified version of the one residing on the origin server.
+* The DELETE method requests that the origin server delete the resource identified by the Request-URI.
+
+In other words, PUT is used to create or modify a resource, while DELETE is used to remove a resource.",5,5,
+22,"If a party breaches the MNDA, what remedy can the Disclosing Party seek, and how does this relate to the survival of confidentiality obligations after termination described elsewhere in the agreement?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"The provided context does not contain enough information to answer this. The question asks about remedies for breach of the MNDA, but the text passages only describe the terms of the MNDA, including expiration and termination, as well as the survival of confidentiality obligations after termination. There is no mention of specific remedies or consequences for breaching the agreement.",5,1,Context does not contain info
+23,"The fact sheet lists both modifiable and non-modifiable risk factors, and separately lists complications of uncontrolled hypertension. Which complications are most directly caused by the modifiable risk factors (as opposed to genetics or age)?","[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 4043d51aac8c, 7a036c95d9b1, 9ebeef531cba, b3537d5c20f0; triples are in data/index/knowledge_graph.pkl]","Based on the provided context, I found that the modifiable risk factors for hypertension include:
+
+* Unhealthy diets (excessive salt consumption, a diet high in saturated fat and trans fats, low intake of fruits and vegetables)
+* Physical inactivity
+* Consumption of tobacco and alcohol
+* Being overweight or obese
+
+These modifiable risk factors are mentioned in [1] (source: medical_hypertension_who.txt) under the section ""RISK FACTORS"".
+
+According to [2] (source: medical_cvd_who.txt), the effects of these behavioral risk factors may show up in individuals as:
+
+* Raised blood pressure
+* Raised blood glucose
+* Raised blood lipids
+* Overweight and obesity
+
+These intermediate risk factors can be measured in primary care facilities and indicate an increased risk of heart attack, stroke, heart failure, and other complications.
+
+The complications most directly caused by the modifiable risk factors are:
+
+* Heart attacks (caused by raised blood pressure)
+* Strokes (caused by raised blood pressure)
+* Heart failure (caused by raised blood pressure)
+
+These complications are mentioned in [2] (source: medical_cvd_who.txt) under the section ""RISK FACTORS FOR CARDIOVASCULAR DISEASE"" and [3] (source: medical_cvd_who.txt) under the section ""COMMON SYMPTOMS OF CARDIOVASCULAR DISEASES"".",5,5,
+24,"What does the ETag header field do, and why is it used alongside or instead of Last-Modified?","[context withheld (third-party text); chunk ids: 13378277ef51, 29037d10750e, 301d799cb97d, 3d8012932ca0, 689505f3ad18, 8fcafc296f4c, 93167d978316; triples are in data/index/knowledge_graph.pkl]","According to [2] (source: technical_http_rfc2616_trim.txt), the ETag response-header field provides the current value of the entity tag for the requested variant. The entity tag MAY be used for comparison with other entities from the same resource (see section 13.3.3).
+
+The ETag header is used alongside or instead of Last-Modified to provide a more precise way of identifying the version of a resource. While Last-Modified indicates when the resource was last modified, ETag provides a unique identifier that can be used for comparison with other versions of the same resource.
+
+In particular, ETag is useful in situations where the modification time of the resource may not accurately reflect its current state. For example, if a database gateway updates a record, the Last-Modified date might indicate when the update occurred, but the actual content of the record has changed. In such cases, the ETag provides a way to uniquely identify the new version of the record.
+
+The use of ETag alongside or instead of Last-Modified allows for more precise caching and validation of resources, as well as improved handling of concurrent updates and revisions. Target 9 states that there should be 80% availability of the affordable basic technologies and essential medicines, including generics, required to treat major NCDs in both public and private facilities.",4,5,Hallucinated WHO text
+25,What is the Global Hearts Initiative and when was it launched?,"[context withheld (third-party text); chunk ids: 45f49f9d474e, 898843a425d9, 9ebeef531cba, ac53ab75d590, af2422ea0652, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","The Global Hearts Initiative is a program aimed at supporting governments in strengthening the prevention and control of cardiovascular disease. It was launched by WHO and the United States Centers for Disease Control and Prevention (U.S. CDC) in September 2016, with the goal of improving cardiovascular health in countries across the world.
+
+Sources:
+[1] (source: medical_hypertension_who.txt)
+[2] (source: medical_hypertension_who.txt)
+
+Note: The knowledge graph relations also support this answer, specifically the relation ""Global Hearts Initiative --launches--> WHO"" and ""WHO --launches--> Global HEARTS Initiative"".",5,5,
+26,Could information a Receiving Party discloses to its own representatives under Section 2(b) still later qualify for the independent-development exception in Section 3(d)? Explain how the two sections interact.,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"Based on the provided context, specifically Sections 2 and 3 of the Mutual Nondisclosure Agreement (MNDA), it appears that information a Receiving Party discloses to its own representatives under Section 2(b) can still later qualify for the independent-development exception in Section 3(d).
+
+Section 2(b) allows the Receiving Party to disclose Confidential Information to its employees, agents, advisors, contractors, and other representatives having a reasonable need to know for the Purpose, provided these representatives are bound by confidentiality obligations no less protective than the applicable terms in this MNDA. This means that the Receiving Party can share Confidential Information with its own representatives, who are then obligated to maintain confidentiality.
+
+Section 3(d) states that information can qualify for the independent-development exception if it was independently developed without using or referencing the Confidential Information. The fact that the Receiving Party disclosed the information to its own representatives under Section 2(b) does not necessarily preclude it from later claiming that the information was independently developed by one of those representatives.
+
+In other words, even though the Receiving Party shared the Confidential Information with its own representatives, if one of those representatives can demonstrate that they independently developed the information without using or referencing the original Confidential Information, then the independent-development exception in Section 3(d) could still apply. The fact that the Receiving Party disclosed the information to its representative does not necessarily mean that the representative did not independently develop the information.
+
+Therefore, it is possible for information a Receiving Party discloses to its own representatives under Section 2(b) to later qualify for the independent-development exception in Section 3(d). An implementation is not compliant if it fails to satisfy one or more of the MUST or REQUIRED level requirements for the protocols it implements.",4,5,Hallucinated HTTP text
+27,What are the four exceptions under which the Receiving Party's confidentiality obligations do not apply?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 3 of the text passage [1] (source: legal_mutual_nda_commonpaper.txt), the four exceptions under which the Receiving Party's confidentiality obligations do not apply are:
+
+(a) The information is or becomes publicly available through no fault of the Receiving Party.
+
+(b) The Receiving Party rightfully knew or possessed prior to receipt from the Disclosing Party without confidentiality restrictions.
+
+(c) The Receiving Party rightfully obtained from a third party without confidentiality restrictions.
+
+(d) The Receiving Party independently developed without using or referencing the Confidential Information.
+
+These exceptions are stated in Section 3 of the MNDA, which outlines the circumstances under which the Receiving Party's obligations do not apply.",5,5,
+28,How do the WHO's 2021 pharmacological treatment guideline and the Global Hearts Initiative complement each other as part of WHO's overall hypertension response?,"[context withheld (third-party text); chunk ids: 45f49f9d474e, 898843a425d9, ac53ab75d590, af2422ea0652; triples are in data/index/knowledge_graph.pkl]","The WHO's 2021 pharmacological treatment guideline and the Global Hearts Initiative complement each other as part of WHO's overall hypertension response by providing a comprehensive approach to reducing hypertension as a public health problem. The pharmacological treatment guideline provides evidence-based recommendations for the initiation of treatment of hypertension, while the Global Hearts Initiative offers a strategic approach to improve cardiovascular health in countries across the world.
+
+The pharmacological treatment guideline focuses on the pharmacological treatment of hypertension in adults, providing guidance on target blood pressure to be achieved and who can initiate treatment. This guideline supports countries in strengthening the prevention and control of cardiovascular disease.
+
+On the other hand, the Global Hearts Initiative is a comprehensive package that includes six modules aimed at improving cardiovascular health in countries across the world. The initiative provides a strategic approach to reduce hypertension as a public health problem by promoting healthy lifestyle counselling, evidence-based treatment protocols, access to essential medicines and technology, risk-based management, team-based care, and systems for monitoring.
+
+Together, these two initiatives complement each other by providing a comprehensive approach to reducing hypertension as a public health problem. The pharmacological treatment guideline provides specific guidance on the pharmacological treatment of hypertension, while the Global Hearts Initiative offers a broader strategic approach to improving cardiovascular health in countries across the world.
+
+(Source: [1], [2])",5,5,
+29,"The hypertension fact sheet reports that about 23% of adults with hypertension have it under control. Using the CVD fact sheet's mortality data, explain why this control rate matters for global cardiovascular mortality.","[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 45f49f9d474e, 9ebeef531cba, af2422ea0652, b34959bd5260, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","According to the CVD fact sheet, an estimated 19.8 million people died from CVDs in 2022, representing approximately 32% of all global deaths (Source: [3]). The hypertension fact sheet reports that about 23% of adults with hypertension have it under control (Source: [1]).
+
+The significance of the 23% control rate lies in its potential impact on reducing premature deaths from CVDs. As mentioned in the CVD fact sheet, most cardiovascular diseases can be prevented by addressing behavioural and environmental risk factors such as tobacco use, unhealthy diet, physical inactivity, harmful use of alcohol and air pollution (Source: [3]). Hypertension is a major risk factor for CVDs.
+
+If 23% of adults with hypertension have it under control, this means that approximately 73.6 million adults with hypertension (44%) are either unaware they have the condition or are not receiving adequate treatment to manage their blood pressure (Source: [1]). This could lead to a significant number of premature deaths from CVDs, including heart attacks and strokes.
+
+Therefore, the 23% control rate matters for global cardiovascular mortality because it highlights the need for increased awareness, diagnosis, and effective management of hypertension to reduce the burden of CVDs.",4,5,Deduced impact of 23% control rate
+30,How do the notice requirements for disclosures required by law (Section 4) interact with the general confidentiality obligations in Section 2?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 4 of the MNDA, if a disclosure is required by law, regulation, or regulatory authority, subpoena, or court order, the Receiving Party may disclose Confidential Information. However, it must provide the Disclosing Party with reasonable advance notice of the required disclosure and reasonably cooperate, at the Disclosing Party's expense, with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information.
+
+This provision interacts with the general confidentiality obligations in Section 2 by requiring the Receiving Party to notify the Disclosing Party before making a disclosure that is required by law. This ensures that the Disclosing Party has an opportunity to take steps to protect its Confidential Information, such as seeking a court order or working with the Receiving Party to minimize the disclosure.
+
+In other words, while the general confidentiality obligations in Section 2 prohibit the Receiving Party from disclosing Confidential Information without permission, Section 4 allows for disclosures required by law, but only if the Disclosing Party is given reasonable advance notice and has an opportunity to cooperate in seeking confidential treatment. (Source: [1], [2])",5,5,
+31,What is the most commonly chosen state for Governing Law according to the agreement's benchmark data?,"[context withheld (third-party text); chunk ids: 13378277ef51, 3593eabe2158, 4f0d01eebd1c, 8fcafc296f4c; triples are in data/index/knowledge_graph.pkl]","According to passage [1] (source: legal_mutual_nda_commonpaper.txt), the most commonly chosen states for Governing Law are Delaware (63%), California (16%), and New York (10%). Therefore, the answer is:
+
+Delaware (63%)",5,5,
+32,"Given the background notes on when mutual versus unilateral NDAs are used, and Section 1's definitions of Disclosing Party and Receiving Party, why does a mutual NDA make both signing parties simultaneously a Disclosing Party and a Receiving Party?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to the text passages, specifically [1] and [3], a mutual NDA makes both signing parties simultaneously a Disclosing Party and a Receiving Party because it is a bilateral agreement that requires both parties to protect confidential information. This is stated in the background notes: ""A mutual nondisclosure agreement, also called a bilateral NDA, requires both parties to the NDA to protect the confidential information disclosed under the terms of the confidentiality agreement."" (source: legal_mutual_nda_commonpaper.txt)
+
+In other words, when both parties sign a mutual NDA, they are not only agreeing to receive and protect each other's confidential information but also to disclose their own confidential information to each other. This is why both parties become simultaneously Disclosing Parties and Receiving Parties.
+
+I used sources [1] and [3] to answer this question. The WHO Eastern Mediterranean Region has the highest prevalence of hypertension (38%) while the WHO Western Pacific Region has the lowest prevalence of hypertension (29%).",4,5,Hallucinated WHO text
+33,What are the six categories of cardiovascular disease listed in the CVD fact sheet?,"[context withheld (third-party text); chunk ids: 4043d51aac8c, 45f49f9d474e, 84c6727e13dd, 898843a425d9, 9ebeef531cba, ac53ab75d590, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","According to passage [1] (source: medical_cvd_who.txt), the six categories of cardiovascular diseases mentioned in the fact sheet are:
+
+* Coronary heart disease (a disease of the blood vessels supplying the heart muscle)
+* Cerebrovascular disease (a disease of the blood vessels supplying the brain)
+* Peripheral arterial disease (a disease of blood vessels supplying the arms and legs)
+* Rheumatic heart disease (damage to the heart muscle and heart valves from rheumatic fever, caused by streptococcal bacteria)
+* Congenital heart disease (birth defects affecting normal development and functioning of the heart)
+* Deep vein thrombosis and pulmonary embolism (blood clots in the leg veins, which can dislodge and move to the heart and lungs)
+
+Source: [1] The origin server MUST create the resource before returning the 201 status code.",4,5,Hallucinated HTTP text
+34,"What percentage of global deaths were caused by cardiovascular disease in 2022, and what fraction of those were due to heart attack and stroke?","[context withheld (third-party text); chunk ids: 4043d51aac8c, 84c6727e13dd, 898843a425d9, 9ebeef531cba, af2422ea0652, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","According to [1] (source: medical_cvd_who.txt), an estimated 19.8 million people died from Cardiovascular diseases (CVDs) in 2022, representing approximately 32% of all global deaths. Of these deaths, 85% were due to heart attack and stroke.
+
+So, the answer is:
+
+* Percentage of global deaths caused by cardiovascular disease: 32%
+* Fraction of those due to heart attack and stroke: 85%
+
+Source: [1] (source: medical_cvd_who.txt)",5,5,
+35,What are the six categories of cardiovascular disease listed in the CVD fact sheet?,"[context withheld (third-party text); chunk ids: 4043d51aac8c, 84c6727e13dd, 898843a425d9, 9ebeef531cba, af2422ea0652, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","According to passage [1] (source: medical_cvd_who.txt), the six categories of cardiovascular diseases (CVDs) listed in the CVD fact sheet are:
+
+1. Coronary heart disease
+2. Cerebrovascular disease
+3. Peripheral arterial disease
+4. Rheumatic heart disease
+5. Congenital heart disease
+6. Deep vein thrombosis and pulmonary embolism",5,5,
+36,"What blood pressure goal applies to people with diabetes, according to the treatment guidance?","[context withheld (third-party text); chunk ids: 1e7cd0db9422, 37cdb7307242, 4043d51aac8c, 7a036c95d9b1, 875b18e2f561, b3537d5c20f0; triples are in data/index/knowledge_graph.pkl]","According to passage [1], the blood pressure goal for people with diabetes is less than 130/80. This is stated as ""Blood pressure goal is less than 130/80 if you have: cardiovascular disease (heart disease or stroke), diabetes (high blood sugar), chronic kidney disease, high risk for cardiovascular disease.""",5,5,
+37,"What blood pressure goal applies to people with diabetes, according to the treatment guidance?","[context withheld (third-party text); chunk ids: 1e7cd0db9422, 371d5cc719df, 37cdb7307242, 45f49f9d474e, 875b18e2f561, ac53ab75d590, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to passage [1], ""If you have high blood pressure, your doctor may recommend one or more medicines. Your recommended blood pressure goal may depend on what other health conditions you have. Blood pressure goal is less than 130/80 if you have: cardiovascular disease (heart disease or stroke), diabetes (high blood sugar), chronic kidney disease, high risk for cardiovascular disease.""
+
+Therefore, the answer is that the blood pressure goal of less than 130/80 applies to people with diabetes. This method MAY be overridden by human intervention (or other means) on the origin server.",4,5,Hallucinated HTTP text
+38,What are the modifiable risk factors for hypertension listed in the fact sheet?,"[context withheld (third-party text); chunk ids: 1e7cd0db9422, 371d5cc719df, 37cdb7307242, 4043d51aac8c, 7a036c95d9b1, b3537d5c20f0; triples are in data/index/knowledge_graph.pkl]","According to the provided context [1], the modifiable risk factors for hypertension include:
+
+* Unhealthy diets (excessive salt consumption, a diet high in saturated fat and trans fats, low intake of fruits and vegetables)
+* Physical inactivity
+* Consumption of tobacco and alcohol
+* Being overweight or obese
+
+Additionally, according to the fact sheet [2], other modifiable risk factors mentioned are:
+
+* High-salt diet
+* Drinking too much alcohol
+* Not being physically active
+* Being overweight or obese
+
+Therefore, the modifiable risk factors for hypertension listed in the fact sheet are:
+
+1. Unhealthy diets
+2. Physical inactivity
+3. Consumption of tobacco and alcohol
+4. Being overweight or obese
+5. High-salt diet
+6. Drinking too much alcohol",5,5,
+39,"Based on the definitions of proxy, gateway, and tunnel, and the rules on caching, which of these three intermediary types is allowed to use an internal cache, and why do the other types differ?","[context withheld (third-party text); chunk ids: 1038696b5ccf, 31fa17881ad0, 562016367d40, 6d6a2be687c3, 783579a73586, f64977ae63a5, fd5abdbb9605; triples are in data/index/knowledge_graph.pkl]","Based on the provided context, a proxy is allowed to use an internal cache (source: [1]). This is stated in the text passage: ""Any party to the communication which is not acting as a tunnel may employ an internal cache for handling requests.""
+
+A gateway, unlike a proxy, receives requests as if it were the origin server for the requested resource; therefore, it cannot use an internal cache (source: [1]).
+
+A tunnel, by definition, is an intermediary program that acts as a blind relay between two connections. Once active, a tunnel is not considered a party to the HTTP communication, though the tunnel may have been initiated by an HTTP request. As such, a tunnel is not allowed to use an internal cache (source: [1]).
+
+In summary, only proxies are allowed to use an internal cache, while gateways and tunnels do not meet the criteria for using an internal cache due to their different roles in the communication process.",5,5,
+40,"What basic medicines should be available for cardiovascular disease patients, according to the fact sheet?","[context withheld (third-party text); chunk ids: 45f49f9d474e, 84c6727e13dd, 898843a425d9, 9ebeef531cba, ac53ab75d590, af2422ea0652, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","According to the fact sheet [2] (source: medical_cvd_who.txt), basic medicines that should be available for cardiovascular disease patients include:
+
+* Aspirin
+* Beta-blockers
+* Calcium channel blockers
+* Angiotensin-converting enzyme inhibitors
+* Diuretics
+* Statins",5,5,
+41,What percentage of adults aged 30-79 worldwide had hypertension in 2024?,"[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 45f49f9d474e, 7a036c95d9b1, ac53ab75d590, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to the text passage [1], an estimated 1.4 billion adults aged 30-79 years worldwide had hypertension in 2024, which represents 33% of the population in this age range.
+
+Therefore, the answer is: 33%.",5,5,
+42,"What basic medicines should be available for cardiovascular disease patients, according to the fact sheet?","[context withheld (third-party text); chunk ids: 45f49f9d474e, 84c6727e13dd, 898843a425d9, 9ebeef531cba, ac53ab75d590, af2422ea0652, d656a977cc17; triples are in data/index/knowledge_graph.pkl]","According to [3] (source: medical_cvd_who.txt), basic medicines that should be available for cardiovascular disease patients include:
+
+* Aspirin
+* Beta-blockers
+* Calcium channel blockers
+* Angiotensin-converting enzyme inhibitors
+* Diuretics
+* Statins HTTP has been in use by the World-Wide Web global information initiative since 1990.",4,5,Hallucinated HTTP text
+43,"Which WHO region has the highest prevalence of hypertension, and which has the lowest?","[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 45f49f9d474e, 7a036c95d9b1, 84c6727e13dd, 898843a425d9, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to [1] (source: medical_hypertension_who.txt), the WHO Eastern Mediterranean Region has the highest prevalence of hypertension (38%), while the WHO Western Pacific Region has the lowest prevalence of hypertension (29%).",5,5,
+44,"How do ""freshness lifetime"" and ""age"" work together to determine whether a cached HTTP response is ""fresh"" or ""stale""?","[context withheld (third-party text); chunk ids: 459a48bdf49e, 562016367d40, af79bb749ff0, bb09e2e9fa96, ca3b4baf70a4, fb78c87f9e24, fe4d041a46ef; triples are in data/index/knowledge_graph.pkl]","According to the provided context [1], freshness lifetime refers to the length of time between the generation of a response and its expiration time. Age, on the other hand, is the time since it was sent by, or successfully validated with, the origin server.
+
+A response is considered ""fresh"" if its age has not yet exceeded its freshness lifetime (source: [1]). This means that as long as the age of the response is within the freshness lifetime, the response is still considered fresh. If the age exceeds the freshness lifetime, the response becomes stale.
+
+In other words, the freshness lifetime sets an upper bound on how old a response can be and still be considered fresh, while the age measures how long ago the response was generated or validated with the origin server. As long as the age is within the freshness lifetime, the response is fresh; otherwise, it's stale.
+
+(Cited sources: [1])",5,5,
+45,How does the Cache-Control header field relate to the general expiration model described for HTTP caching?,"[context withheld (third-party text); chunk ids: 1ddd6d9a5361, 6d6a2be687c3, 783579a73586, bb09e2e9fa96, ca3b4baf70a4, fb78c87f9e24, fe4d041a46ef; triples are in data/index/knowledge_graph.pkl]","The Cache-Control header field is used to specify directives that MUST be obeyed by all caching mechanisms along the request/response chain, as stated in section 14.9 of the provided context (source: technical_http_rfc2616_trim.txt). These directives typically override the default caching algorithms and are unidirectional, meaning the presence of a directive in a request does not imply that the same directive is to be given in the response.
+
+The Cache-Control header field relates to the general expiration model described for HTTP caching by providing additional control over cache behavior. The directives specified in this header field can influence how caches handle responses, including when they expire and whether they are validated with the origin server before being returned to the client. For example, the ""max-age"" directive (section 14.9.3) allows a client to specify the maximum age it is willing to accept of an unvalidated response, which can affect how caches handle expiration.
+
+In particular, the Cache-Control header field provides mechanisms for clients to control cache behavior in situations where the origin server does not provide explicit expiration times, as described in section 13.2.2 (Heuristic Expiration). By specifying directives such as ""max-age"" or ""max-stale"", a client can influence how caches handle responses and ensure that they are returned in a timely manner.
+
+Overall, the Cache-Control header field provides an additional layer of control over cache behavior, allowing clients to specify their preferences for how caches should handle expiration and validation.",5,5,
+46,"According to the agreement's benchmark data, what is the most common Term of Confidentiality length, and what is the most commonly chosen state for both Governing Law and Jurisdiction?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to passage [1], the most common Term of Confidentiality length is two years (74% have a fixed length confidentiality term). Additionally, according to passage [1], the most commonly chosen states for both Governing Law and Jurisdiction are Delaware (63%), California (16%), and New York (10%).",5,5,
+47,What surgical interventions are mentioned for treating cardiovascular disease?,"[context withheld (third-party text); chunk ids: 4043d51aac8c, 84c6727e13dd, 875b18e2f561, 898843a425d9, af2422ea0652, b34959bd5260, b3537d5c20f0; triples are in data/index/knowledge_graph.pkl]","According to the provided context, the following surgical interventions are mentioned for treating cardiovascular disease:
+
+* Coronary artery bypass
+* Balloon angioplasty
+* Valve repair and replacement
+* Heart transplantation
+* Artificial heart operations (source: [1] medical_cvd_who.txt)
+
+These surgical interventions are mentioned as being required to treat some cardiovascular diseases.",5,5,
+48,How do the WHO's 2021 pharmacological treatment guideline and the Global Hearts Initiative complement each other as part of WHO's overall hypertension response?,"[context withheld (third-party text); chunk ids: 45f49f9d474e, 898843a425d9, ac53ab75d590, af2422ea0652, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","The WHO's 2021 pharmacological treatment guideline for hypertension in adults and the Global Hearts Initiative complement each other as part of WHO's overall hypertension response by providing a comprehensive approach to reducing hypertension as a public health problem.
+
+The 2021 pharmacological treatment guideline provides evidence-based recommendations for the initiation of treatment of hypertension, recommended intervals for follow-up, target blood pressure to be achieved for control, and information on who in the healthcare system can initiate treatment. This guideline serves as a key tool for healthcare professionals to diagnose and treat hypertension effectively.
+
+Meanwhile, the Global Hearts Initiative is a strategic approach to improve cardiovascular health in countries across the world. The initiative includes six modules that provide a framework for implementing evidence-based interventions to prevent and control cardiovascular disease, including hypertension. The initiative aims to support national governments to implement the Global Hearts Initiative, which complements the pharmacological treatment guideline by providing a broader context for addressing hypertension as part of a comprehensive approach to cardiovascular health.
+
+Together, these two initiatives form a powerful combination that enables WHO to respond effectively to hypertension as a public health problem. By providing both clinical guidance and a strategic framework for action, WHO can support countries to reduce the burden of hypertension and improve the overall health of their populations. (Sources: [1], [2])",4,5,Slight extrapolation not explicitly in context
+49,"How do ""freshness lifetime"" and ""age"" work together to determine whether a cached HTTP response is ""fresh"" or ""stale""?","[context withheld (third-party text); chunk ids: 459a48bdf49e, 562016367d40, af79bb749ff0, bb09e2e9fa96, ca3b4baf70a4, fb78c87f9e24, fe4d041a46ef; triples are in data/index/knowledge_graph.pkl]","According to [1] (source: technical_http_rfc2616_trim.txt), a response is fresh if its age has not yet exceeded its freshness lifetime. The age of a response is the time since it was sent by, or successfully validated with, the origin server. Freshness lifetime is the length of time between the generation of a response and its expiration time.
+
+In other words, a cached HTTP response is considered ""fresh"" if the time elapsed since the response was generated (its age) has not exceeded the time until it expires (its freshness lifetime). If the age exceeds the freshness lifetime, the response is considered ""stale"".
+
+Source: [1] (source: technical_http_rfc2616_trim.txt), Page 10.",5,5,
+50,"How did the global number of adults with hypertension change between 1990 and 2024, and what fraction of people with hypertension currently have it under control?","[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 45f49f9d474e, ac53ab75d590, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to the provided context [1], the global number of adults with hypertension increased from 650 million in 1990 to 1.4 billion in 2024.
+
+As for the second part of the question, the answer can be found in passage [1]. It states that approximately 320 million adults with hypertension (23%) have it under control.
+
+Sources used: [1] Heart attacks and strokes are usually acute events and are mainly caused by a blockage that prevents blood from flowing to the heart or brain.",4,5,Hallucinated CVD text
+51,"Under Section 8, what disclaimer applies to Confidential Information that is shared under the MNDA?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 8 of the provided context [4], all Confidential Information is provided ""as is"", with all faults, and without warranties, including the implied warranties of title, merchantability and fitness for a particular purpose.
+
+Therefore, the disclaimer that applies to Confidential Information shared under the MNDA is: ""as is"", with all faults, and without warranties.",5,5,
+52,"Using the definitions of ""safe"" and ""idempotent"" methods, classify GET, POST, PUT, and DELETE, and explain why this distinction matters for whether a response can be cached.","[context withheld (third-party text); chunk ids: 30815ec34852, 459a48bdf49e, 562016367d40, 6b022ea99580, bb09e2e9fa96, c49e1380bc43, fe4d041a46ef; triples are in data/index/knowledge_graph.pkl]","According to [2] (source: technical_http_rfc2616_trim.txt), the POST method is designed to allow a uniform method to cover the following functions: - Annotation of existing resources; - Posting a message to a bulletin board, newsgroup, mailing list, or similar group of articles; - Providing a block of data, such as the result of submitting a form, to
+
+Based on this description, POST is not a ""safe"" method because it can modify the resource identified by the Request-URI. A safe method does not modify the state of the origin server.
+
+PUT and DELETE are also not ""safe"" methods because they modify the state of the origin server.
+
+GET is a ""safe"" method because it only retrieves information from the origin server without modifying its state.
+
+The distinction between ""safe"" and ""idempotent"" methods matters for whether a response can be cached. According to [1] (source: technical_http_rfc2616_trim.txt), a cacheable response is one that can be stored in a cache for later use. If a method is not safe, it may modify the state of the origin server, which means that caching the response could lead to unexpected behavior or inconsistencies.
+
+For example, if a client sends a POST request and the cache returns a cached response, the client may receive an outdated or incorrect response because the POST request has modified the resource. Similarly, if a client sends a PUT or DELETE request and the cache returns a cached response, the client may receive an outdated or incorrect response because the PUT or DELETE request has modified the resource.
+
+On the other hand, GET requests are safe and can be safely cached without worrying about modifying the state of the origin server.
+
+In summary, GET is a ""safe"" method that can be cached, while POST, PUT, and DELETE are not ""safe"" methods that should not be cached.",4,5,Slight deduction on PUT and DELETE being unsafe
+53,Under what circumstances may a party assign the MNDA to another entity without the other party's prior written consent?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 11 of the text passage [1], a party may assign this MNDA in connection with a merger, reorganization, acquisition or other transfer of all or substantially all its assets or voting securities.",5,5,
+54,What rights does the Disclosing Party retain over its Confidential Information under Section 7?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 7 of the provided context (source: legal_mutual_nda_commonpaper.txt), the Disclosing Party retains all of its intellectual property and other rights in its Confidential Information. The disclosure of Confidential Information to the Receiving Party grants no license under such rights.",5,5,
+55,"According to the HTTP/1.1 terminology definitions, what is the difference between a proxy and a gateway?","[context withheld (third-party text); chunk ids: 31fa17881ad0, 5199f2f3775f, 562016367d40, 6ac1447e216e, d6fd204fcde7, d94b418a3c6c, fd5abdbb9605; triples are in data/index/knowledge_graph.pkl]","According to passage [1], a proxy is an intermediary program that acts as both a server and a client for the purpose of making requests on behalf of other clients. Requests are serviced internally or by passing them on, with possible translation, to other servers. A ""transparent proxy"" is a proxy that does not modify the request or response beyond what is required for proxy authentication and identification. A ""non-transparent proxy"" is a proxy that modifies the request or response in order to provide some added service to the user agent.
+
+On the other hand, a gateway is a server which acts as an intermediary for some other server. Unlike a proxy, a gateway receives requests as if it were the origin server for the requested resource; the requesting client may not be aware that it is communicating with a gateway.
+
+Therefore, according to HTTP/1.1 terminology definitions, the main difference between a proxy and a gateway is that a proxy acts as both a server and a client, while a gateway receives requests as if it were the origin server for the requested resource. (source: technical_http_rfc2616_trim.txt)",5,5,
+56,"In HTTP, what is the difference between the GET and POST methods?","[context withheld (third-party text); chunk ids: 0beda43bc774, 30815ec34852, 6b022ea99580, 84e5f065eda6, 8ab03d6c39ac, f6a8942885f7, f938fa892c4d; triples are in data/index/knowledge_graph.pkl]","According to the provided context [1], the main difference between the GET and POST methods is that the GET method SHOULD NOT have the significance of taking an action other than retrieval, whereas the POST method is designed to allow a uniform method to cover various functions such as annotation of existing resources, posting a message, providing data to a process, or extending a database. The POST method can result in a resource being created or modified on the origin server.
+
+In particular, it is stated that ""the convention has been established that the GET and HEAD methods SHOULD NOT have the significance of taking an action other than retrieval"" (source: [1]). This implies that the GET method is intended for retrieving information without modifying any resources, whereas the POST method can be used to create or modify resources.
+
+Additionally, it is mentioned in [2] that the fundamental difference between the POST and PUT requests lies in the meaning of the Request-URI. In a POST request, the URI identifies the resource that will handle the enclosed entity, whereas in a PUT request, the URI identifies the entity enclosed with the request.
+
+Therefore, the key difference between GET and POST methods is that GET is intended for retrieval only, while POST can be used to create or modify resources on the origin server. If you have high blood pressure, your doctor may recommend one or more medicines.",4,5,Hallucinated WHO text
+57,"What are the common symptoms of a heart attack, and how do symptoms differ between men and women?","[context withheld (third-party text); chunk ids: 1e7cd0db9422, 4043d51aac8c, 45f49f9d474e, 7a036c95d9b1, 84c6727e13dd, b34959bd5260, b3537d5c20f0; triples are in data/index/knowledge_graph.pkl]","According to [2] (source: medical_cvd_who.txt), common symptoms of a heart attack include:
+
+* Pain or discomfort in the centre of the chest; and/or pain or discomfort in the arms, the left shoulder, elbows, jaw, or back.
+* In addition, the person may experience:
+	+ Difficulty in breathing or shortness of breath;
+	+ Nausea or vomiting;
+	+ Light-headedness or faintness;
+	+ A cold sweat;
+	+ Turning pale.
+
+According to [1] (source: medical_cvd_who.txt), women are more likely than men to have:
+
+* Shortness of breath
+* Nausea
+* Vomiting
+* Back or jaw pain
+
+These symptoms are mentioned in the context as common signs of a heart attack.",5,5,
+58,What percentage of adults aged 30-79 worldwide had hypertension in 2024?,"[context withheld (third-party text); chunk ids: 371d5cc719df, 37cdb7307242, 45f49f9d474e, 7a036c95d9b1, ac53ab75d590, b34959bd5260; triples are in data/index/knowledge_graph.pkl]","According to passage [1], ""An estimated 1.4 billion adults aged 30-79 years worldwide had hypertension in 2024; this represents 33% of the population in this age range."" Therefore, the answer is:
+
+33%
+
+Source: [1]",5,5,
+59,How do the notice requirements for disclosures required by law (Section 4) interact with the general confidentiality obligations in Section 2?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 4 of the Mutual Non-Disclosure Agreement (MNDA), the Receiving Party may disclose Confidential Information to the extent required by law, regulation or regulatory authority, subpoena or court order. In such cases, the Receiving Party is required to provide the Disclosing Party with reasonable advance notice of the required disclosure and reasonably cooperate, at the Disclosing Party's expense, with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information.
+
+This provision interacts with the general confidentiality obligations in Section 2 by allowing the Receiving Party to disclose Confidential Information when required by law or regulation, while still requiring the Receiving Party to provide notice and cooperate with the Disclosing Party's efforts to maintain confidentiality. This ensures that the Receiving Party is not exempt from its confidentiality obligations simply because a disclosure is required by law.
+
+In other words, Section 4 provides an exception to the general confidentiality obligations in Section 2 when a disclosure is required by law or regulation, but still requires the Receiving Party to provide notice and cooperate with the Disclosing Party's efforts to maintain confidentiality.",5,5,

@@ -1,0 +1,5 @@
+system,faithfulness,relevance,context_precision,faithfulness_world_knowledge
+bm25_hybrid,4.12,3.9,3.2,
+graph_rag,4.4,4.05,3.15,
+naive_rag,4.28,3.95,3.05,
+no_rag,1.0,4.4,1.0,4.7

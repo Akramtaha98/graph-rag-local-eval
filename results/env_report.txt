@@ -1,0 +1,36 @@
+model tag requested: llama3
+ollama version: ollama version is 0.35.1
+installed: llama3:latest digest=365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1 size_bytes=4661224676 details={"parent_model": "", "format": "gguf", "family": "llama", "families": ["llama"], "parameter_size": "8.0B", "quantization_level": "Q4_0", "context_length": 8192, "embedding_length": 4096}
+show.details: {"parent_model": "", "format": "gguf", "family": "llama", "families": ["llama"], "parameter_size": "8.0B", "quantization_level": "Q4_0"}
+general.architecture: llama
+general.parameter_count: 8030261248
+general.file_type: 2
+llama.context_length: 8192
+--- ollama show (cli) ---
+Model
+    architecture        llama    
+    parameters          8.0B     
+    context length      8192     
+    embedding length    4096     
+    quantization        Q4_0     
+
+  Capabilities
+    completion    
+
+  Parameters
+    num_keep    24                       
+    stop        "<|start_header_id|>"    
+    stop        "<|end_header_id|>"      
+    stop        "<|eot_id|>"             
+
+  License
+    META LLAMA 3 COMMUNITY LICENSE AGREEMENT             
+    Meta Llama 3 Version Release Date: April 18, 2024    
+    ...
+--- hardware ---
+platform: macOS-27.0-arm64-arm-64bit-Mach-O
+cpu: Apple M4 Pro
+logical cores: 12
+memory: 24 GiB
+macOS: 27.0
+python: 3.13.2

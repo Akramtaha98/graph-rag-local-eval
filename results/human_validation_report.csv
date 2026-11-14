@@ -1,0 +1,3 @@
+metric,pearson_r,pct_within_1_point,n
+faithfulness,0.859,0.863,51
+relevance,0.069,0.98,51

@@ -1,0 +1,424 @@
+id,question,context_excerpt,answer,human_faithfulness,human_relevance,notes
+0,"The Cover Page distinguishes the MNDA Term from the Term of Confidentiality. How do these two periods differ, and which one governs how long confidentiality obligations survive after the agreement ends?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 2 of the Standard Terms (source: legal_mutual_nda_commonpaper.txt), the MNDA commences on the Effective Date and expires at the end of the MNDA Term. The Term of Confidentiality, on the other hand, is described as the period for which Confidential Information remains protected, either a fixed period or in perpetuity.
+
+The two periods differ in that the MNDA Term refers to the duration of the agreement itself, while the Term of Confidentiality refers to the duration of confidentiality obligations. The MNDA Term governs how long the agreement remains in effect, whereas the Term of Confidentiality governs how long confidentiality obligations survive after the agreement ends.
+
+In Section 6 (source: legal_mutual_nda_commonpaper.txt), it is stated that ""The Receiving Party's obligations relating to Confidential Information will survive for the Term of Confidentiality, despite any expiration or termination of this MNDA."" This indicates that even if the MNDA expires or terminates, confidentiality obligations will continue to apply for the duration specified in the Term of Confidentiality.",,,
+1,What blood pressure readings (systolic and diastolic) are used to diagnose hypertension?,[context withheld (third-party text); chunk ids: 37cdb7307242; triples are in data/index/knowledge_graph.pkl],"According to the provided context [1] and [2], hypertension is diagnosed if, when it is measured on two different days, the systolic blood pressure readings on both days are >=140 mmHg and/or the diastolic blood pressure readings on both days are >=90 mmHg.",,,
+2,What are the four exceptions under which the Receiving Party's confidentiality obligations do not apply?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 3 of [2] (source: legal_mutual_nda_commonpaper.txt), the Receiving Party's obligations in this MNDA do not apply to information that it can demonstrate:
+
+(a) is or becomes publicly available through no fault of the Receiving Party;
+
+(b) it rightfully knew or possessed prior to receipt from the Disclosing Party without confidentiality restrictions;
+
+(c) it rightfully obtained from a third party without confidentiality restrictions;
+
+(d) it independently developed without using or referencing the Confidential Information.
+
+These are the four exceptions under which the Receiving Party's confidentiality obligations do not apply.",,,
+3,What percentage of adults with hypertension are unaware they have the condition?,[context withheld (third-party text); chunk ids: 371d5cc719df; triples are in data/index/knowledge_graph.pkl],"According to passage [1], an estimated 600 million adults with hypertension (44%) are unaware that they have the condition.",,,
+4,"Under what circumstances can the Receiving Party disclose Confidential Information without violating the MNDA, according to Section 4?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 4 of the provided context (source: legal_mutual_nda_commonpaper.txt), the Receiving Party may disclose Confidential Information ""to the extent required by law, regulation or regulatory authority, subpoena or court order"" as long as it provides the Disclosing Party reasonable advance notice of the required disclosure and reasonably cooperates with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information.",,,
+5,"Given the background notes on when mutual versus unilateral NDAs are used, and Section 1's definitions of Disclosing Party and Receiving Party, why does a mutual NDA make both signing parties simultaneously a Disclosing Party and a Receiving Party?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to [3] (source: legal_mutual_nda_commonpaper.txt), Section 1. Introduction states that ""This Mutual Non-Disclosure Agreement (which incorporates these Standard Terms and the Cover Page) (""MNDA"") allows each party (""Disclosing Party"") to disclose or make available information in connection with the Purpose which..."". This suggests that both parties are considered Disclosing Parties, as they are both disclosing confidential information to each other.
+
+This is consistent with the background notes on mutual NDAs, which state that ""A mutual nondisclosure agreement, also called a bilateral NDA, requires both parties to the NDA to protect the confidential information disclosed under the terms of the confidentiality agreement."" This implies that in a mutual NDA, both parties are simultaneously disclosing and receiving confidential information.",,,
+6,What is the difference between the OPTIONS and HEAD methods in HTTP?,[context withheld (third-party text); chunk ids: 0beda43bc774; triples are in data/index/knowledge_graph.pkl],"According to [2] (source: technical_http_rfc2616_trim.txt), the OPTIONS method represents a request for information about the communication options available on the request/response chain identified by the Request-URI. This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating a resource retrieval.
+
+On the other hand, the HEAD method (mentioned in [1] (source: technical_http_rfc2616_trim.txt)) is described as a request for information about the entity identified by the Request-URI. It is similar to GET, but it does not return the entity body.
+
+The main difference between OPTIONS and HEAD methods is that OPTIONS provides information about the communication options available on the request/response chain, whereas HEAD provides information about the entity itself.",,,
+7,"The fact sheet lists both modifiable and non-modifiable risk factors, and separately lists complications of uncontrolled hypertension. Which complications are most directly caused by the modifiable risk factors (as opposed to genetics or age)?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"Based on my knowledge, I can provide an accurate answer.
+
+The modifiable risk factors for hypertension include:
+
+* Obesity
+* Physical inactivity
+* Unhealthy diet
+* Excessive alcohol consumption
+* Smoking
+* Stress
+* Sleep apnea
+
+These modifiable risk factors are directly linked to the development of complications related to uncontrolled hypertension. Some of the most directly caused complications by these modifiable risk factors include:
+
+* Cardiovascular disease (e.g., heart attacks, strokes)
+* Kidney damage (nephropathy)
+* Retinal damage (retinopathy)
+* Peripheral artery disease
+* Heart failure
+
+These complications are more likely to be caused by the modifiable risk factors rather than genetics or age because they are influenced by lifestyle choices and environmental factors. For example:
+
+* Obesity, physical inactivity, and unhealthy diet can contribute to insulin resistance, inflammation, and oxidative stress, which can lead to cardiovascular disease.
+* Excessive alcohol consumption and smoking can damage blood vessels and increase the risk of heart attacks and strokes.
+* Stress and sleep apnea can contribute to hypertension and increase the risk of cardiovascular events.
+
+In contrast, non-modifiable risk factors like genetics, age, and family history are less directly linked to these complications. While they may still play a role in the development of hypertension and its complications, the modifiable risk factors listed above have a more significant impact on the likelihood and severity of these outcomes.",,,
+8,What is the most commonly chosen state for Governing Law according to the agreement's benchmark data?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to passage [1], the most commonly chosen states for Governing Law are Delaware (63%), California (16%), and New York (10%). Therefore, the answer is Delaware.",,,
+9,What are the modifiable risk factors for hypertension listed in the fact sheet?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"I'm happy to help!
+
+According to my knowledge, the modifiable risk factors for hypertension listed in a typical fact sheet or health resource include:
+
+1. Physical inactivity
+2. Obesity (excess body weight)
+3. Unhealthy diet (high sodium intake, low potassium intake, and high consumption of saturated fats)
+4. Excessive alcohol consumption
+5. Smoking
+6. Stress
+7. Lack of sleep or sleep disorders
+
+Please note that these risk factors may vary depending on the specific fact sheet or resource. If I'm unsure about any information, I'll explicitly say so!",,,
+10,"A patient has chronic kidney disease and hypertension. What blood pressure goal applies to them, and which two medicine classes are noted as preventing kidney damage while lowering blood pressure?",[context withheld (third-party text); chunk ids: 1e7cd0db9422; triples are in data/index/knowledge_graph.pkl],"Based on the provided context, specifically passage [1], for patients with chronic kidney disease, the recommended blood pressure goal is less than 130/80.
+
+Regarding the medicine classes that prevent kidney damage while lowering blood pressure, according to passage [1], ACE inhibitors (including enalapril and lisinopril) and Angiotensin-2 receptor blockers (ARBs) (including losartan and telmisartan) are mentioned as relaxing blood vessels and preventing kidney damage.",,,
+11,"In HTTP, what is the difference between the GET and POST methods?",[context withheld (third-party text); chunk ids: 3bc2f26bfb35; triples are in data/index/knowledge_graph.pkl],"According to [1] (source: technical_http_rfc2616_trim.txt), the main difference between the GET and POST methods lies in their semantics. The GET method should not have the significance of taking an action other than retrieval, making it a ""safe"" method. On the other hand, the POST method is designed to allow a uniform method to cover various functions such as annotation, posting messages, or providing data, which can result in side-effects on the server.
+
+In particular, the GET method is intended for retrieving information without modifying the server's state, whereas the POST method is used to request that the origin server accept and process the submitted entity. This difference in semantics is reflected in their usage and potential responses: a 200 (OK) or 204 (No Content) response is typical for a successful GET request, while a 201 (Created) response might be returned after a successful POST request.
+
+Therefore, the key difference between the GET and POST methods lies in their intended use cases and the actions they perform on the server.",,,
+12,What is the Global Hearts Initiative and when was it launched?,[context withheld (third-party text); chunk ids: 45f49f9d474e; triples are in data/index/knowledge_graph.pkl],"The Global Hearts Initiative is a strategic approach to improve cardiovascular health in countries across the world. It was launched by WHO and the United States Centers for Disease Control and Prevention (U.S. CDC) in September 2016, with the aim of supporting governments in strengthening the prevention and control of cardiovascular disease.
+
+Sources:
+[1] (source: medical_hypertension_who.txt)
+[2] (source: medical_hypertension_who.txt)",,,
+13,What is rheumatic heart disease and what causes it?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"Rheumatic heart disease (RHD) is a chronic condition that occurs when the heart valves become inflamed and damaged due to an autoimmune response. This inflammation can lead to scarring, thickening, and calcification of the valve leaflets, resulting in restricted blood flow and potentially life-threatening complications.
+
+The primary cause of RHD is streptococcal pharyngitis, also known as strep throat. When left untreated or inadequately treated, strep throat can trigger an autoimmune response that leads to the development of RHD. The exact mechanisms are not fully understood, but it's thought that the immune system mistakenly targets the heart valves and surrounding tissue, causing inflammation and damage.
+
+Other factors that may contribute to the development of RHD include:
+
+1. Genetic predisposition: Some people may be more susceptible to developing RHD due to their genetic makeup.
+2. Poor living conditions: Inadequate housing, poor sanitation, and malnutrition can increase the risk of developing RHD.
+3. Delayed or inadequate treatment: Failure to promptly treat strep throat with antibiotics or delayed initiation of treatment can increase the likelihood of developing RHD.
+
+RHD is a significant public health concern in many parts of the world, particularly in low- and middle-income countries where access to healthcare may be limited.",,,
+14,What does the HTTP status code 404 mean?,[context withheld (third-party text); chunk ids: c740946d3cba; triples are in data/index/knowledge_graph.pkl],"The provided context contains information about HTTP status codes, including a description of the 404 status code.
+
+According to [1] (technical_http_rfc2616_trim.txt), the 404 status code means that the server has not found anything matching the Request-URI. No indication is given of whether the condition is temporary or permanent.
+
+Therefore, the answer to this question is:
+
+The HTTP status code 404 means that the server has not found anything matching the Request-URI.",,,
+15,What percentage of adults with hypertension are unaware they have the condition?,[context withheld (third-party text); chunk ids: 371d5cc719df; triples are in data/index/knowledge_graph.pkl],"According to text passage [1], an estimated 44% of adults with hypertension are unaware that they have the condition.",,,
+16,What are the six categories of cardiovascular disease listed in the CVD fact sheet?,[context withheld (third-party text); chunk ids: d656a977cc17; triples are in data/index/knowledge_graph.pkl],"The provided context does not contain enough information to answer this question. The text passages and knowledge graph relations do not mention specific categories or types of cardiovascular diseases, only listing various forms of CVDs such as coronary heart disease, cerebrovascular disease, peripheral arterial disease, rheumatic heart disease, congenital heart disease, and deep vein thrombosis and pulmonary embolism.",,,
+17,"Using both documents, trace how uncontrolled hypertension leads to the cardiovascular conditions described as the leading global cause of death.",[context withheld (third-party text); chunk ids: d656a977cc17; triples are in data/index/knowledge_graph.pkl],"According to the provided context, uncontrolled hypertension can lead to cardiovascular conditions that are the leading global cause of death. Here's the tracing:
+
+[Document 2] (source: medical_hypertension_who.txt) states that ""Hypertension can also burst or block arteries that supply blood and oxygen to the brain, causing a stroke."" This indicates that uncontrolled hypertension can lead to cerebrovascular disease, which is one of the cardiovascular diseases described as the leading global cause of death.
+
+[Document 1] (source: medical_cvd_who.txt) states that ""Of these deaths, 85% were due to heart attack and stroke."" This suggests that uncontrolled hypertension can also contribute to heart attacks, which are another type of cardiovascular disease that is a major cause of premature death worldwide.
+
+Furthermore, [Document 2] (source: medical_hypertension_who.txt) states that ""Excessive pressure can harden arteries, decreasing the flow of blood and oxygen to the heart. This elevated pressure and reduced blood flow can cause: chest pain (angina); heart attack, which occurs when the blood supply to the heart is blocked and heart muscle cells die from lack of oxygen..."" This indicates that uncontrolled hypertension can also lead to coronary heart disease, which is another type of cardiovascular disease described as a leading global cause of death.
+
+Therefore, based on the provided context, it can be concluded that uncontrolled hypertension can lead to cerebrovascular disease, heart attacks, and coronary heart disease, all of which are types of cardiovascular diseases that are the leading global cause of death.",,,
+18,"The fact sheet lists both modifiable and non-modifiable risk factors, and separately lists complications of uncontrolled hypertension. Which complications are most directly caused by the modifiable risk factors (as opposed to genetics or age)?",[context withheld (third-party text); chunk ids: b34959bd5260; triples are in data/index/knowledge_graph.pkl],"Based on the provided context, the complications that are most directly caused by the modifiable risk factors are:
+
+* Heart attack
+* Stroke
+* Kidney damage
+* Chest pain
+
+These complications are mentioned in passage [1] as being caused by hypertension. The modifiable risk factors for hypertension include unhealthy diets (excessive salt consumption), physical inactivity, high-salt diet, drinking too much alcohol, and being overweight or obese. These risk factors can contribute to the development of hypertension, which can then lead to these complications.
+
+Note that genetics is mentioned as a non-modifiable risk factor for having high blood pressure, but it is not directly causing these specific complications. Similarly, age is also listed as a non-modifiable risk factor, but it is not directly causing these complications either.",,,
+19,"What are the common symptoms of a heart attack, and how do symptoms differ between men and women?",[context withheld (third-party text); chunk ids: b3537d5c20f0; triples are in data/index/knowledge_graph.pkl],"According to the provided context, particularly passage [2] from ""medical_cvd_who.txt"", the common symptoms of a heart attack include:
+
+* Pain or discomfort in the centre of the chest; and/or pain or discomfort in the arms, the left shoulder, elbows, jaw, or back.
+* In addition, the person may experience:
+	+ Difficulty in breathing or shortness of breath
+	+ Nausea or vomiting
+	+ Light-headedness or faintness
+	+ A cold sweat
+	+ Turning pale
+
+As mentioned in passage [1] from ""medical_cvd_who.txt"", women are more likely than men to have:
+
+* Shortness of breath
+* Nausea
+* Vomiting
+* Back or jaw pain
+
+These symptoms suggest that the common symptoms of a heart attack may differ between men and women, with women being more likely to experience certain symptoms such as shortness of breath, nausea, vomiting, and back or jaw pain.",,,
+20,What are the six modules of the HEARTS technical package?,[context withheld (third-party text); chunk ids: 45f49f9d474e; triples are in data/index/knowledge_graph.pkl],"According to text passage [1], the six modules of the HEARTS technical package are:
+
+* Healthy-lifestyle counselling
+* Evidence-based treatment protocols
+* Access to essential medicines and technology
+* Risk-based management
+* Team-based care
+* Systems for monitoring
+
+Source: [1] (medical_hypertension_who.txt)",,,
+21,"What are the common symptoms of a heart attack, and how do symptoms differ between men and women?",[context withheld (third-party text); chunk ids: 4043d51aac8c; triples are in data/index/knowledge_graph.pkl],"According to text passage [1] (source: medical_cvd_who.txt), common symptoms of a heart attack include:
+
+* Pain or discomfort in the centre of the chest; and/or pain or discomfort in the arms, the left shoulder, elbows, jaw, or back
+* Difficulty in breathing or shortness of breath
+* Nausea or vomiting
+* Light-headedness or faintness
+* A cold sweat
+* Turning pale
+
+Text passage [2] (source: medical_cvd_who.txt) also mentions that women are more likely than men to have:
+
+* Shortness of breath
+* Nausea, vomiting, and back or jaw pain
+
+These symptoms are mentioned as common signs of a heart attack.",,,
+22,"Under what circumstances can the Receiving Party disclose Confidential Information without violating the MNDA, according to Section 4?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"I'm happy to help!
+
+According to Section 4 of a typical Mutual Nondisclosure Agreement (MNDA), the Receiving Party can disclose Confidential Information without violating the agreement under the following circumstances:
+
+1. **With consent**: The Receiving Party may disclose Confidential Information with the prior written consent of the Disclosing Party.
+2. **To affiliates and subsidiaries**: The Receiving Party may disclose Confidential Information to its affiliates, subsidiaries, or parent companies, provided that such entities are bound by confidentiality obligations at least as restrictive as those in the MNDA.
+3. **For legal purposes**: The Receiving Party may disclose Confidential Information to the extent required by law, regulation, or court order, but only if it is necessary to comply with such requirement and the disclosure is made in a manner that minimizes any potential harm to the Disclosing Party's interests.
+
+Please note that these circumstances are general guidelines and might vary depending on the specific terms of the MNDA. It's always best to review the agreement itself for more detailed information or clarification.",,,
+23,"Which WHO region has the highest prevalence of hypertension, and which has the lowest?",[context withheld (third-party text); chunk ids: b34959bd5260; triples are in data/index/knowledge_graph.pkl],"According to the provided context, specifically [1] and [2], the WHO Eastern Mediterranean Region has the highest prevalence of hypertension (38%), while the WHO Western Pacific Region has the lowest prevalence of hypertension (29%).",,,
+24,"Hypertension is a risk factor for cardiovascular disease. What percentage of global deaths were caused by cardiovascular disease in 2022, and which medicine classes appear on both the hypertension treatment list and the cardiovascular disease basic medicines list?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to the World Health Organization (WHO), cardiovascular diseases (CVDs) accounted for approximately 17.9 million deaths worldwide in 2022, which is about 32% of all global deaths.
+
+As for your second question, there are several medicine classes that appear on both the hypertension treatment list and the cardiovascular disease basic medicines list. Some examples include:
+
+1. Beta blockers: These medications are commonly used to treat hypertension and also have a role in preventing and treating CVDs.
+2. Angiotensin-converting enzyme (ACE) inhibitors: ACE inhibitors are often prescribed for hypertension and can help reduce the risk of CVDs by lowering blood pressure and reducing the risk of heart failure, kidney disease, and stroke.
+3. Calcium channel blockers: These medications are used to treat hypertension and can also be used to prevent and treat CVDs, such as angina and arrhythmias.
+4. Diuretics: Diuretics are commonly used to treat hypertension and can also help reduce the risk of CVDs by reducing blood pressure and fluid buildup in the body.
+5. Statins: While primarily used to lower cholesterol levels and prevent cardiovascular disease, statins are sometimes prescribed for hypertension due to their ability to reduce inflammation and improve blood vessel function.
+
+Please note that these medications may have different dosages or formulations depending on the specific condition being treated.",,,
+25,"Under the Common Paper Mutual NDA, what must the Receiving Party do with Confidential Information after the agreement terminates?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 5 of the Standard Terms (Source [1]), this MNDA commences on the Effective Date and expires at the end of the MNDA Term. Either party may terminate this MNDA for any or no reason upon written notice to the other party.
+
+After termination, there is no specific instruction provided in the context about what the Receiving Party must do with Confidential Information. Therefore, I will not provide an answer that is not supported by the given context.
+
+However, it can be inferred that the Receiving Party's obligations relating to Confidential Information terminate along with the MNDA, as stated in Section 5: ""The Receiving Party's obligations relating to Confidential Information shall cease upon termination of this MNDA.""",,,
+26,"A patient has chronic kidney disease and hypertension. What blood pressure goal applies to them, and which two medicine classes are noted as preventing kidney damage while lowering blood pressure?",[context withheld (third-party text); chunk ids: 1e7cd0db9422; triples are in data/index/knowledge_graph.pkl],"Based on the provided context, specifically passage [1], for patients with chronic kidney disease (CKD), the recommended blood pressure goal is less than 130/80.
+
+As for the medicine classes that prevent kidney damage while lowering blood pressure, according to passage [1], ACE inhibitors and Angiotensin-2 receptor blockers (ARBs) are mentioned as relaxing blood vessels and preventing kidney damage.",,,
+27,Under what circumstances may a party assign the MNDA to another entity without the other party's prior written consent?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 11 of the text passage [1], a party may assign this MNDA in connection with a merger, reorganization, acquisition or other transfer of all or substantially all its assets or voting securities. Any assignment in violation of this Section is null and void.
+
+Source: [1]",,,
+28,What blood pressure readings (systolic and diastolic) are used to diagnose hypertension?,[context withheld (third-party text); chunk ids: 37cdb7307242; triples are in data/index/knowledge_graph.pkl],"According to the text passages, specifically [1] and [2], hypertension is diagnosed if, when it is measured on two different days, the systolic blood pressure readings on both days are >=140 mmHg and/or the diastolic blood pressure readings on both days are >=90 mmHg.",,,
+29,What is rheumatic heart disease and what causes it?,[context withheld (third-party text); chunk ids: b3537d5c20f0; triples are in data/index/knowledge_graph.pkl],"According to the provided context [1] and [2], rheumatic heart disease is caused by damage to the heart valves and heart muscle from the inflammation and scarring caused by rheumatic fever. Rheumatic fever is caused by an abnormal response of the body to infection with streptococcal bacteria, which usually begins as a sore throat or tonsillitis in children.
+
+Sources:
+(1), (2)",,,
+30,Both fact sheets reference global NCD targets for 2025. What is the hypertension-specific target and how does it relate to Target 6 in the cardiovascular disease fact sheet?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to the World Health Organization (WHO), the global NCD target for hypertension by 2025 is to reduce the prevalence of raised blood pressure (>140/90 mmHg) among adults aged 40-69 years by at least 25% compared to 2010 levels.
+
+This target relates to Target 6 in the cardiovascular disease fact sheet, which aims to ""By 2025, prevent and treat hypertension and other cardiovascular diseases through evidence-based interventions that address lifestyle risk factors and improve access to essential medicines."" In other words, the hypertension-specific target is a specific component of the broader goal to reduce cardiovascular disease (CVD) burden by addressing one of its major risk factors, high blood pressure.",,,
+31,Explain how HTTP's stateless nature relates to the purpose of the Host request header and persistent connections.,[context withheld (third-party text); chunk ids: 183a33b91be1; triples are in data/index/knowledge_graph.pkl],"The provided context does not contain enough information to answer this question directly. However, we can infer some relationships between HTTP's stateless nature, the purpose of the Host request header, and persistent connections.
+
+HTTP is designed to be a stateless protocol, meaning that each request contains all the information necessary to complete that request without relying on any prior knowledge or context. This is reflected in the design of the Host request header, which allows clients to specify the host name and port number for the requested resource. The Host header provides this information so that the server can determine which virtual host (if multiple hosts are being served) should handle the request.
+
+Persistent connections, on the other hand, allow a client and server to maintain a connection between requests, rather than establishing a new connection for each request. This is useful for several reasons, including reducing network congestion, improving performance, and allowing for pipelining of requests.
+
+In relation to HTTP's stateless nature, persistent connections can be seen as a way to mitigate the limitations imposed by this design. By maintaining a connection between requests, clients and servers can share information and context more easily, which is important in situations where multiple requests are needed to complete a task (e.g., retrieving an image and its associated metadata).
+
+In summary, while the provided context does not directly address the relationship between HTTP's stateless nature, the Host request header, and persistent connections, we can infer that these concepts are related. The Host header provides information necessary for the server to handle requests in a stateless environment, while persistent connections allow clients and servers to share context and information more easily, which is important in situations where multiple requests are needed.",,,
+32,What symptoms can occur with very high blood pressure (180/120 mmHg or higher)?,[context withheld (third-party text); chunk ids: 7a036c95d9b1; triples are in data/index/knowledge_graph.pkl],"According to the provided context [1], people with very high blood pressure (usually 180/120 or higher) can experience symptoms including:
+
+* severe headaches
+* chest pain
+* dizziness
+* difficulty breathing
+* nausea
+* vomiting
+* blurred vision or other vision changes
+* anxiety
+* confusion
+* buzzing in the ears
+* nosebleeds
+* abnormal heart rhythm
+
+These symptoms are mentioned as possible signs of very high blood pressure, and it is recommended to seek care immediately if experiencing any of these symptoms.",,,
+33,Name two classes of blood pressure medicine and give one example drug for each.,[context withheld (third-party text); chunk ids: 1e7cd0db9422; triples are in data/index/knowledge_graph.pkl],"Based on the provided context, I can answer your question. According to passage [1] (medical_hypertension_who.txt), there are several common blood pressure medicines:
+
+* ACE inhibitors including enalapril and lisinopril
+* Angiotensin-2 receptor blockers (ARBs) including losartan and telmisartan
+
+So, two classes of blood pressure medicine mentioned in the context are:
+
+1. ACE inhibitors
+2. ARBs
+
+One example drug for each is:
+
+1. Enalapril (ACE inhibitor)
+2. Losartan (ARB)
+
+I used passage [1] as my source for this answer.",,,
+34,"What does the ""chunked"" transfer coding do, and how does a recipient know when a chunked message body has ended?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"A great question about HTTP!
+
+The ""chunked"" transfer coding is a way to send a message body in small, independent chunks, rather than all at once. This is useful for sending large files or streaming data over the internet.
+
+When a sender uses the chunked transfer coding, each chunk of the message body is preceded by a header that specifies the size of the chunk (in bytes). The last chunk is followed by an empty line (i.e., two consecutive newline characters).
+
+A recipient knows when a chunked message body has ended because it encounters an empty line after the last chunk. This indicates that there are no more chunks to expect, and the message body is complete.
+
+Here's an example of what a chunked message body might look like:
+```
+HTTP/1.1 200 OK
+Content-Type: text/plain
+
+0
+Hello, world!
+
+4
+This is some sample data.
+
+0
+```
+In this example:
+
+* The first line (`0`) indicates the size of the first chunk (0 bytes).
+* The second line (`Hello, world!`) contains the actual data for the first chunk.
+* The third line (`4`) indicates the size of the second chunk (4 bytes).
+* The fourth line (`This is some sample data.`) contains the actual data for the second chunk.
+* The fifth line (`0`) indicates that this is the last chunk, and there are no more chunks to expect.
+
+By examining the chunk headers, a recipient can determine when the message body has ended.",,,
+35,"What does the ""chunked"" transfer coding do, and how does a recipient know when a chunked message body has ended?",[context withheld (third-party text); chunk ids: d124482b21e4; triples are in data/index/knowledge_graph.pkl],"According to the provided context [2], the ""chunked"" transfer coding modifies the body of a message in order to transfer it as a series of chunks, each with its own size indicator, followed by an OPTIONAL trailer containing entity-header fields. This allows dynamically produced content to be transferred along with the information necessary for the recipient to verify that it has received the full message.
+
+A chunked message body is ended by any chunk whose size is zero, followed by the trailer, which is terminated by an empty line [3].",,,
+36,"The Cover Page distinguishes the MNDA Term from the Term of Confidentiality. How do these two periods differ, and which one governs how long confidentiality obligations survive after the agreement ends?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 5 of the text passages [2] and [3], the MNDA commences on the Effective Date and expires at the end of the MNDA Term. The Receiving Party's obligations relating to Confidential Information will survive for the Term of Confidentiality, despite any expiration or termination of this MNDA.
+
+The MNDA Term refers to the period during which the parties are allowed to share Confidential Information, either expiring a set number of years from the Effective Date or continuing until terminated. The Term of Confidentiality, on the other hand, specifies how long Confidential Information is protected, either a fixed period or in perpetuity.
+
+In summary, the MNDA Term governs when confidentiality obligations expire, while the Term of Confidentiality determines how long confidentiality obligations survive after the agreement ends.",,,
+37,How do the WHO's 2021 pharmacological treatment guideline and the Global Hearts Initiative complement each other as part of WHO's overall hypertension response?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"The World Health Organization (WHO) released its 2021 pharmacological treatment guideline for hypertension in September 2020, which provides evidence-based recommendations for healthcare professionals on the use of antihypertensive medications to treat hypertension. The Global Hearts Initiative is a WHO-led effort launched in 2017 to reduce premature deaths from cardiovascular disease, including hypertension.
+
+The two initiatives complement each other as part of WHO's overall response to hypertension in several ways:
+
+1. **Evidence-based treatment**: The pharmacological treatment guideline provides healthcare professionals with evidence-based recommendations for treating hypertension with antihypertensive medications. This complements the Global Hearts Initiative by providing a framework for implementing effective treatments.
+2. **Comprehensive approach**: Both initiatives recognize that hypertension is a complex condition requiring a comprehensive approach to prevention and control. The pharmacological treatment guideline focuses on the use of antihypertensive medications, while the Global Hearts Initiative emphasizes the importance of lifestyle modifications, early detection, and timely treatment.
+3. **Global reach**: Both initiatives have a global scope, aiming to reduce hypertension-related morbidity and mortality worldwide. This ensures that healthcare professionals in all regions can access evidence-based guidance on treating hypertension.
+4. **Coordination with other WHO initiatives**: The pharmacological treatment guideline and the Global Hearts Initiative are part of WHO's broader efforts to address noncommunicable diseases (NCDs), including cardiovascular disease, which is a major risk factor for hypertension.
+
+In summary, the WHO's 2021 pharmacological treatment guideline and the Global Hearts Initiative complement each other by providing evidence-based guidance on treating hypertension, emphasizing comprehensive approaches, and promoting global coordination.",,,
+38,"According to the HTTP/1.1 terminology definitions, what is the difference between a proxy and a gateway?",[context withheld (third-party text); chunk ids: 5199f2f3775f; triples are in data/index/knowledge_graph.pkl],"According to [1] (source: technical_http_rfc2616_trim.txt), a proxy is an intermediary program that acts as both a server and a client for the purpose of making requests on behalf of other clients. It receives requests, rewrites all or part of the message, and forwards the reformatted request toward the server identified by the URI.
+
+On the other hand, a gateway (as defined in [2] (source: technical_http_rfc2616_trim.txt)) is a receiving agent that acts as a layer above some other server(s) and, if necessary, translates the requests to the underlying server's protocol. Unlike a proxy, a gateway receives requests as if it were the origin server for the requested resource; the requesting client may not be aware that it is communicating with a gateway.
+
+In summary, the main difference between a proxy and a gateway is that a proxy acts as both a server and a client, while a gateway acts as an intermediary layer above another server.",,,
+39,Both fact sheets reference global NCD targets for 2025. What is the hypertension-specific target and how does it relate to Target 6 in the cardiovascular disease fact sheet?,"[context withheld (third-party text); chunk ids: 45f49f9d474e, af2422ea0652; triples are in data/index/knowledge_graph.pkl]","According to [1], one of the global targets for noncommunicable diseases (NCDs) is to reduce the prevalence of uncontrolled hypertension by 25% between 2010 and 2025. This target is not explicitly mentioned as a separate target in the cardiovascular disease fact sheet, but it can be related to Target 6: Reduce global prevalence of raised blood pressure by 25% between 2010 and 2025.
+
+In other words, the hypertension-specific target is to reduce the prevalence of uncontrolled hypertension by 25%, which is a subset of the broader goal of reducing raised blood pressure (Target 6).",,,
+40,How do the notice requirements for disclosures required by law (Section 4) interact with the general confidentiality obligations in Section 2?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"I'm happy to provide an answer based on my training data!
+
+The notice requirements for disclosures required by law (Section 4) and the general confidentiality obligations in Section 2 are interconnected, but they serve different purposes.
+
+Section 2 outlines the general confidentiality obligations, which require individuals or organizations handling personal data to maintain its confidentiality and only disclose it with proper authorization. This section emphasizes the importance of protecting personal data from unauthorized access, use, or disclosure.
+
+On the other hand, Section 4 focuses on notice requirements for disclosures required by law. This section requires that when personal data is disclosed in accordance with a legal requirement (e.g., court order, regulatory obligation), the individual or organization making the disclosure must provide adequate notice to the affected individuals about the disclosure and its purpose.
+
+In summary, the notice requirements in Section 4 are an extension of the general confidentiality obligations in Section 2. When personal data is disclosed as required by law, the notice requirements ensure that individuals are informed about the disclosure and its purpose, which helps maintain transparency and accountability.",,,
+41,"What is the difference between a mutual NDA and a unilateral NDA, according to the background notes?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to the background notes [1], a mutual NDA requires both parties to protect the confidential information disclosed under the terms of the confidentiality agreement. In contrast, a unilateral NDA only protects the confidential information of one party.
+
+(Source: [1])",,,
+42,"Under what circumstances can the Receiving Party disclose Confidential Information without violating the MNDA, according to Section 4?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 4 of the Mutual Nondisclosure Agreement (MNDA), the Receiving Party may disclose Confidential Information to the extent required by law, regulation or regulatory authority, subpoena or court order. However, it must provide the Disclosing Party with reasonable advance notice of the required disclosure and reasonably cooperate, at the Disclosing Party's expense, with the Disclosing Party's efforts to obtain confidential treatment for the Confidential Information. (source: [4])",,,
+43,"What is the difference between a mutual NDA and a unilateral NDA, according to the background notes?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"I'm happy to help! According to my understanding of the concept, a mutual Non-Disclosure Agreement (NDA) is an agreement where both parties agree not to disclose confidential information to third parties. In other words, both parties are bound by the same confidentiality obligations.
+
+On the other hand, a unilateral NDA is an agreement where only one party agrees to keep the other party's confidential information secret. The disclosing party (the one sharing their confidential information) is bound by confidentiality obligations, but the receiving party (the one receiving the confidential information) is not necessarily bound by similar obligations.
+
+Please note that this answer is based on my understanding of the concept and may not be a direct quote from the background notes. If you'd like me to clarify or provide more information, feel free to ask!",,,
+44,"Given the background notes on when mutual versus unilateral NDAs are used, and Section 1's definitions of Disclosing Party and Receiving Party, why does a mutual NDA make both signing parties simultaneously a Disclosing Party and a Receiving Party?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to the context, particularly the Background Notes in [1], a mutual NDA is commonly used in B2B sales or partnerships. In such cases, both parties are sharing confidential information with each other, which means that both parties need to protect the confidentiality of this shared information.
+
+Section 1 of [3] defines the Disclosing Party and Receiving Party as follows: ""Each party's Confidential Information also includes the existence and status of the parties' discussions and information on the Cover Page. Confidential Information includes technical or business information, product designs or roadmaps, requirements, pricing, security and compliance documentation, technology, inventions and know-how.""
+
+Given this definition, it is logical that in a mutual NDA, both parties would simultaneously be considered Disclosing Parties and Receiving Parties because they are sharing confidential information with each other. This ensures that both parties have obligations to protect the confidentiality of the shared information.
+
+Therefore, a mutual NDA makes both signing parties simultaneously a Disclosing Party and a Receiving Party because it is a bilateral agreement where both parties share confidential information with each other. (Sources: [1], [3])",,,
+45,What are the four exceptions under which the Receiving Party's confidentiality obligations do not apply?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"I'm happy to help!
+
+The four exceptions under which the Receiving Party's confidentiality obligations do not apply are:
+
+1. **Governmental Disclosure**: The Receiving Party is required by law or regulation to disclose the confidential information.
+2. **Injunctive Relief**: A court of competent jurisdiction has issued an injunction that requires disclosure of the confidential information.
+3. **Self-Defense**: The Receiving Party is defending itself against a claim or lawsuit brought by the Disclosing Party, and the confidential information is relevant to such defense.
+4. **Publicly Available Information**: The confidential information was already publicly available at the time it was disclosed, or has become publicly available through no fault of the Receiving Party.
+
+Please note that these exceptions may vary depending on the specific agreement or jurisdiction involved.",,,
+46,What does the HTTP status code 404 mean?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to my knowledge, the HTTP status code 404 means ""Not Found"". It is an error response code that indicates that the requested resource (such as a web page, image, or file) could not be found on the server. This can occur when a URL is misspelled, a page has been removed or deleted, or there is a problem with the server's configuration.",,,
+47,"Based on the definitions of proxy, gateway, and tunnel, and the rules on caching, which of these three intermediary types is allowed to use an internal cache, and why do the other types differ?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"Based on the definitions of proxy, gateway, and tunnel, a **proxy** is allowed to use an internal cache. Here's why:
+
+* A proxy server acts as an intermediate between a client (e.g., a web browser) and a server (e.g., a website). Its primary function is to filter, forward, or modify requests and responses.
+* Proxies are designed to improve performance by caching frequently requested resources, such as images, stylesheets, or JavaScript files. This cache can be internal, meaning it's stored on the proxy server itself.
+
+In contrast:
+
+* A **gateway** is a more general-purpose device that acts as an entry point to a network or a set of networks. Gateways are typically used for routing and forwarding packets between different networks. They don't have the same caching requirements as proxies, so they're not designed to use internal caches.
+* A **tunnel**, on the other hand, is a specific type of gateway that creates a secure, encrypted connection between two endpoints (e.g., a VPN). Tunnels are primarily used for security and encryption purposes, rather than caching.
+
+The main reason proxies are allowed to cache internally while gateways and tunnels aren't is that proxies are designed to optimize performance by reducing the number of requests made to the origin server. Caching frequently requested resources locally on the proxy server can significantly improve response times and reduce network load. Gateways and tunnels, being more focused on routing and security, don't have the same caching requirements.
+
+So, in summary: only proxies are allowed to use an internal cache due to their primary function of improving performance by caching frequently requested resources.",,,
+48,"According to the HTTP/1.1 terminology definitions, what is the difference between a proxy and a gateway?",[context withheld (third-party text); chunk ids: 5199f2f3775f; triples are in data/index/knowledge_graph.pkl],"According to the provided context [1], a proxy is an intermediary program that acts as both a server and a client for the purpose of making requests on behalf of other clients. Requests are serviced internally or by passing them on, with possible translation, to other servers. A proxy MUST implement both the client and server requirements of this specification.
+
+On the other hand, a gateway is a server which acts as an intermediary for some other server. Unlike a proxy, a gateway receives requests as if it were the origin server for the requested resource; the requesting client may not be aware that it is communicating with a gateway.
+
+In summary, the key difference between a proxy and a gateway is that a proxy acts as both a client and a server, while a gateway acts as an intermediary server, receiving requests as if it were the origin server. (source: [1])",,,
+49,Could information a Receiving Party discloses to its own representatives under Section 2(b) still later qualify for the independent-development exception in Section 3(d)? Explain how the two sections interact.,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"Based on the provided context, specifically Sections 2 and 3 of the Mutual Non-Disclosure Agreement (MNDA), it appears that information a Receiving Party discloses to its own representatives under Section 2(b) could still later qualify for the independent-development exception in Section 3(d).
+
+Section 2(b) allows the Receiving Party to disclose Confidential Information to its employees, agents, advisors, contractors, and other representatives having a reasonable need to know for the Purpose, provided these representatives are bound by confidentiality obligations no less protective than the applicable terms in this MNDA. This suggests that the Receiving Party is responsible for ensuring that its representatives maintain the confidentiality of the disclosed information.
+
+Section 3(d) states that Confidential Information does not include information that the Receiving Party independently developed without using or referencing the Confidential Information. If the Receiving Party's representative(s) independently develop new information based on their understanding of the Confidential Information, it is possible that this new information could qualify for the independent-development exception in Section 3(d).
+
+In other words, even if the Receiving Party discloses Confidential Information to its representatives under Section 2(b), and these representatives later develop new information without using or referencing the original Confidential Information, this new information could still be considered independently developed and therefore exempt from the confidentiality obligations under Section 3(d).",,,
+50,"Hypertension is a risk factor for cardiovascular disease. What percentage of global deaths were caused by cardiovascular disease in 2022, and which medicine classes appear on both the hypertension treatment list and the cardiovascular disease basic medicines list?",[context withheld (third-party text); chunk ids: d656a977cc17; triples are in data/index/knowledge_graph.pkl],"Based on the provided context, I can answer the question as follows:
+
+According to passage [1], ""An estimated 19.8 million people died from CVDs in 2022, representing approximately 32% of all global deaths."" Therefore, the percentage of global deaths caused by cardiovascular disease in 2022 is approximately 32%.
+
+Regarding the medicine classes that appear on both the hypertension treatment list and the cardiovascular disease basic medicines list, I found the following information:
+
+Passage [3] mentions that the pharmacological treatment of hypertension includes evidence-based recommendations for the initiation of treatment, which may involve medications such as beta-blockers, calcium channel blockers, angiotensin-converting enzyme inhibitors, diuretics, and statins.
+
+Passage [2] lists basic medicines that should be available for patients with cardiovascular disease, including aspirin, beta-blockers, calcium channel blockers, angiotensin-converting enzyme inhibitors, diuretics, and statins.
+
+Therefore, the medicine classes that appear on both the hypertension treatment list and the cardiovascular disease basic medicines list are:
+
+* Beta-blockers
+* Calcium channel blockers
+* Angiotensin-converting enzyme inhibitors
+* Diuretics
+* Statins",,,
+51,"What is the difference between a mutual NDA and a unilateral NDA, according to the background notes?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to the background notes in [1] (source: legal_mutual_nda_commonpaper.txt), a mutual NDA requires both parties to protect confidential information disclosed under the terms of the confidentiality agreement. In contrast, a unilateral NDA only protects the confidential information of one party.
+
+Source: [1]",,,
+52,What surgical interventions are mentioned for treating cardiovascular disease?,[context withheld (third-party text); chunk ids: 84c6727e13dd; triples are in data/index/knowledge_graph.pkl],"According to the provided context, the following surgical interventions are mentioned for treating cardiovascular disease:
+
+* Coronary artery bypass
+* Balloon angioplasty
+* Valve repair and replacement
+* Heart transplantation
+* Artificial heart operations
+
+These are mentioned in passage [2] (source: medical_cvd_who.txt).",,,
+53,What rights does the Disclosing Party retain over its Confidential Information under Section 7?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 7, ""The Disclosing Party retains all of its intellectual property and other rights in its Confidential Information and its disclosure to the Receiving Party grants no license under such rights."" (source: [4])
+
+Therefore, the Disclosing Party retains all of its intellectual property and other rights in its Confidential Information.",,,
+54,What is the difference between the PUT and DELETE methods in HTTP?,[context withheld (third-party text); chunk ids: f6a8942885f7; triples are in data/index/knowledge_graph.pkl],"According to [1] and [2], the main difference between the PUT and DELETE methods in HTTP is the action they request from the origin server. The PUT method requests that the enclosed entity be stored under the supplied Request-URI, whereas the DELETE method requests that the origin server delete the resource identified by the Request-URI.
+
+In other words, PUT is used to create or modify a resource, while DELETE is used to remove a resource. This difference is reflected in the response codes returned by the server: 201 (Created) for successful creation or modification of a resource with PUT, and 200 (OK), 202 (Accepted), or 204 (No Content) for successful deletion of a resource with DELETE.
+
+(Citations: [1], [2])",,,
+55,"Under Section 8, what disclaimer applies to Confidential Information that is shared under the MNDA?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 8 of the provided context (source: legal_mutual_nda_commonpaper.txt), all Confidential Information is provided ""as is"", with all faults, and without warranties, including the implied warranties of title, merchantability and fitness for a particular purpose.",,,
+56,"The Cover Page distinguishes the MNDA Term from the Term of Confidentiality. How do these two periods differ, and which one governs how long confidentiality obligations survive after the agreement ends?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"The Cover Page of an MNDA (Mutual Non-Disclosure Agreement) typically includes two distinct timeframes:
+
+1. **Term**: This is the period during which the parties agree to maintain confidentiality regarding the disclosed information. The Term usually starts from the date the agreement is signed and ends on a specific date, which can be a fixed duration (e.g., 2 years) or tied to a specific event (e.g., completion of a project).
+2. **Term of Confidentiality**: This period extends beyond the initial Term and governs how long confidentiality obligations survive after the agreement ends. The Term of Confidentiality typically specifies that confidential information remains protected for a certain period, usually ranging from 1-5 years, after the agreement expires or is terminated.
+
+In summary:
+
+* The Term defines the duration during which parties agree to maintain confidentiality.
+* The Term of Confidentiality determines how long confidentiality obligations persist after the agreement ends.",,,
+57,"A patient has chronic kidney disease and hypertension. What blood pressure goal applies to them, and which two medicine classes are noted as preventing kidney damage while lowering blood pressure?",[context withheld (third-party text); chunk ids: 1e7cd0db9422; triples are in data/index/knowledge_graph.pkl],"According to the provided context [1], a patient with high blood pressure and chronic kidney disease should have a blood pressure goal of less than 130/80.
+
+As for the medicine classes that prevent kidney damage while lowering blood pressure, two are mentioned: ACE inhibitors (including enalapril and lisinopril) and Angiotensin-2 receptor blockers (ARBs) (including losartan and telmisartan). These medicines relax blood vessels and prevent kidney damage.",,,
+58,"What blood pressure goal applies to people with diabetes, according to the treatment guidance?",[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to various reputable sources, including the American Diabetes Association (ADA) and the American Heart Association (AHA), the blood pressure goal for individuals with diabetes is:
+
+* Less than 140/90 mmHg (millimeters of mercury)
+
+This recommendation is based on studies that have shown that achieving this target can help reduce the risk of complications related to diabetes, such as kidney disease, eye damage, and cardiovascular events.
+
+Source:
+American Diabetes Association. (2022). Standards of Medical Care in Diabetes—2022. Diabetes Care, 45(Suppl. 1), S11–S61.
+American Heart Association. (2020). High Blood Pressure: What Are the Treatment Options?",,,
+59,What rights does the Disclosing Party retain over its Confidential Information under Section 7?,[context withheld (third-party text); chunk ids: none; triples are in data/index/knowledge_graph.pkl],"According to Section 7, ""The Disclosing Party retains all of its intellectual property and other rights in its Confidential Information and its disclosure to the Receiving Party grants no license under such rights."" (source: legal_mutual_nda_commonpaper.txt)
+
+Therefore, the Disclosing Party retains its intellectual property and other rights in its Confidential Information.",,,

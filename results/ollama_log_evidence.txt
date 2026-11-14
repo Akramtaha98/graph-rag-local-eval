@@ -1,0 +1,22 @@
+Sanitized record of the Ollama server-log checks used for Section 3.1 (A5). Paths shortened; produced on the authors' laptop in October 2026.
+
+$ ls -la ~/.ollama/logs/   (relevant entries)
+server.log    modified 9 Aug   (current log; server start 2026-07-28 18:12)
+server-1.log  modified 5 Jul   (server start 2026-07-03 22:26)
+server-2.log ... server-5.log  (earlier starts: 2026-06-08, 2026-06-08, 2026-05-30, 2026-05-05)
+
+$ grep -H "default_num_ctx" ~/.ollama/logs/server*.log   (time stamps and values; one line per server start)
+server.log:   time=2026-07-28T18:12:39 ... msg="vram-based default context" total_vram="17.8 GiB" default_num_ctx=4096
+
+$ grep -o "default_num_ctx=[0-9]*" ~/.ollama/logs/server.log
+default_num_ctx=4096
+
+$ grep -c "msg=\"server config\"" ~/.ollama/logs/server.log
+1
+
+$ grep "llama_context: n_ctx  " ~/.ollama/logs/server.log | sort | uniq -c
+     10 llama_context: n_ctx         = 4096
+
+$ grep -h "[GIN]" ~/.ollama/logs/server*.log | awk '{print $2}' | sort | uniq -c   (requests per day, all logs)
+   1 2026/05/05   1 2026/05/30   2 2026/06/08   156 2026/07/03   1520 2026/07/04   3918 2026/07/05
+1054 2026/07/28   2617 2026/07/29   683 2026/07/30   1 2026/07/31

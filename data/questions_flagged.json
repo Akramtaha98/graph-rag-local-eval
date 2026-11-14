@@ -1,0 +1,277 @@
+[
+ {
+  "question": "What blood pressure readings (systolic and diastolic) are used to diagnose hypertension?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Name two classes of blood pressure medicine and give one example drug for each.",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What percentage of adults aged 30-79 worldwide had hypertension in 2024?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Which WHO region has the highest prevalence of hypertension, and which has the lowest?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What lifestyle changes are recommended to help prevent or lower high blood pressure?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What are the modifiable risk factors for hypertension listed in the fact sheet?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What symptoms can occur with very high blood pressure (180/120 mmHg or higher)?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What is the Global Hearts Initiative and when was it launched?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What blood pressure goal applies to people with diabetes, according to the treatment guidance?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What percentage of adults with hypertension are unaware they have the condition?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What are the six modules of the HEARTS technical package?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "A patient has chronic kidney disease and hypertension. What blood pressure goal applies to them, and which two medicine classes are noted as preventing kidney damage while lowering blood pressure?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "How did the global number of adults with hypertension change between 1990 and 2024, and what fraction of people with hypertension currently have it under control?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "The fact sheet lists both modifiable and non-modifiable risk factors, and separately lists complications of uncontrolled hypertension. Which complications are most directly caused by the modifiable risk factors (as opposed to genetics or age)?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "How do the WHO's 2021 pharmacological treatment guideline and the Global Hearts Initiative complement each other as part of WHO's overall hypertension response?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What are the six categories of cardiovascular disease listed in the CVD fact sheet?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What are the common symptoms of a heart attack, and how do symptoms differ between men and women?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What is rheumatic heart disease and what causes it?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What basic medicines should be available for cardiovascular disease patients, according to the fact sheet?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What surgical interventions are mentioned for treating cardiovascular disease?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What percentage of global deaths were caused by cardiovascular disease in 2022, and what fraction of those were due to heart attack and stroke?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Hypertension is a risk factor for cardiovascular disease. What percentage of global deaths were caused by cardiovascular disease in 2022, and which medicine classes appear on both the hypertension treatment list and the cardiovascular disease basic medicines list?",
+  "type": "multi_hop",
+  "note": "Requires connecting medical_hypertension_who.txt and medical_cvd_who.txt -- a true cross-document multi-hop question.",
+  "cross_document": true
+ },
+ {
+  "question": "Both fact sheets reference global NCD targets for 2025. What is the hypertension-specific target and how does it relate to Target 6 in the cardiovascular disease fact sheet?",
+  "type": "multi_hop",
+  "note": "Cross-document: requires the hypertension fact sheet's 25% reduction target and the CVD fact sheet's Target 6.",
+  "cross_document": true
+ },
+ {
+  "question": "Using both documents, trace how uncontrolled hypertension leads to the cardiovascular conditions described as the leading global cause of death.",
+  "type": "multi_hop",
+  "note": "Cross-document causal-chain question.",
+  "cross_document": true
+ },
+ {
+  "question": "Both the hypertension and cardiovascular disease fact sheets mention the Global Hearts Initiative. In what year was it launched and which two organizations launched it?",
+  "type": "multi_hop",
+  "note": "Cross-document: same initiative described from two angles in the two source documents.",
+  "cross_document": true
+ },
+ {
+  "question": "The hypertension fact sheet reports that about 23% of adults with hypertension have it under control. Using the CVD fact sheet's mortality data, explain why this control rate matters for global cardiovascular mortality.",
+  "type": "multi_hop",
+  "note": "Cross-document: connects hypertension control statistics to CVD mortality burden.",
+  "cross_document": true
+ },
+ {
+  "question": "Under the Common Paper Mutual NDA, what must the Receiving Party do with Confidential Information after the agreement terminates?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What are the four exceptions under which the Receiving Party's confidentiality obligations do not apply?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Under what circumstances can the Receiving Party disclose Confidential Information without violating the MNDA, according to Section 4?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What is the most commonly chosen state for Governing Law according to the agreement's benchmark data?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What is the difference between a mutual NDA and a unilateral NDA, according to the background notes?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Under Section 8, what disclaimer applies to Confidential Information that is shared under the MNDA?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Under what circumstances may a party assign the MNDA to another entity without the other party's prior written consent?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What rights does the Disclosing Party retain over its Confidential Information under Section 7?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "If a party breaches the MNDA, what remedy can the Disclosing Party seek, and how does this relate to the survival of confidentiality obligations after termination described elsewhere in the agreement?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "According to the agreement's benchmark data, what is the most common Term of Confidentiality length, and what is the most commonly chosen state for both Governing Law and Jurisdiction?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "How do the notice requirements for disclosures required by law (Section 4) interact with the general confidentiality obligations in Section 2?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "The Cover Page distinguishes the MNDA Term from the Term of Confidentiality. How do these two periods differ, and which one governs how long confidentiality obligations survive after the agreement ends?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Could information a Receiving Party discloses to its own representatives under Section 2(b) still later qualify for the independent-development exception in Section 3(d)? Explain how the two sections interact.",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Given the background notes on when mutual versus unilateral NDAs are used, and Section 1's definitions of Disclosing Party and Receiving Party, why does a mutual NDA make both signing parties simultaneously a Disclosing Party and a Receiving Party?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "In HTTP, what is the difference between the GET and POST methods?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What does the HTTP status code 404 mean?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What is the purpose of the Host request header in HTTP/1.1?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What does the \"chunked\" transfer coding do, and how does a recipient know when a chunked message body has ended?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "According to the HTTP/1.1 terminology definitions, what is the difference between a proxy and a gateway?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What does it mean for an HTTP response to be \"cacheable\"?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What is the difference between the PUT and DELETE methods in HTTP?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What does the ETag header field do, and why is it used alongside or instead of Last-Modified?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "What is the difference between the OPTIONS and HEAD methods in HTTP?",
+  "type": "single_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Explain how HTTP's stateless nature relates to the purpose of the Host request header and persistent connections.",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "How do \"freshness lifetime\" and \"age\" work together to determine whether a cached HTTP response is \"fresh\" or \"stale\"?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Using the definitions of \"safe\" and \"idempotent\" methods, classify GET, POST, PUT, and DELETE, and explain why this distinction matters for whether a response can be cached.",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "Based on the definitions of proxy, gateway, and tunnel, and the rules on caching, which of these three intermediary types is allowed to use an internal cache, and why do the other types differ?",
+  "type": "multi_hop",
+  "cross_document": false
+ },
+ {
+  "question": "How does the Cache-Control header field relate to the general expiration model described for HTTP caching?",
+  "type": "multi_hop",
+  "cross_document": false
+ }
+]

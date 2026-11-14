@@ -1,0 +1,22 @@
+items with judge score: 60; completed raters: ['2', '3']
+
+| Comparison | n | Pearson r | Exact % | Within 1 % | Weighted kappa |
+|---|---|---|---|---|---|
+| Judge vs rater 2 | 60 | 0.11 | 68 | 78 | 0.06 |
+| Judge vs rater 3 | 60 | -0.01 | 67 | 93 | 0.01 |
+| Judge vs rater mean | 60 | 0.08 | n/a | 78 | n/a |
+| Constant 5 vs rater 2 | 60 | nan | 77 | 80 | 0.00 |
+| Constant 5 vs rater 3 | 60 | nan | 73 | 100 | 0.00 |
+| Rater 2 vs rater 3 | 60 | 0.53 | 65 | 80 | 0.23 |
+
+Rater 2: scored inserted rows <5 in 8/12; non-inserted rows <5 in 6/48
+
+Rater 3: scored inserted rows <5 in 12/12; non-inserted rows <5 in 4/48
+Judge: scored inserted rows <5 in 2/12; non-inserted rows <5 in 5/48
+
+Confusion (rows = judge 1..5, cols = rater mean rounded 1..5):
+[[ 0  0  0  0  0]
+ [ 0  0  0  0  0]
+ [ 0  0  1  1  3]
+ [ 0  0  0  1  1]
+ [ 0  0  8 10 35]]
